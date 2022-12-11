@@ -1,0 +1,26 @@
+{
+  "header": {
+    "beginning": "Beginning",
+    "projects": "Projects",
+    "contact": "Contact",
+    "technologies": "Technologies"
+  },
+  "main": {
+    "text_projects": "Full Stack Developer Junior",
+    "text_btn": "Download resume"
+  },
+  "technologies": {
+    "title": "knowledge in",
+    "title_bootcam": "Henry's bootcamp in progress"
+  },
+  "me": {
+    "title": "About me",
+    "text": "I am Luis Fernando Rengifo Ruiz and I live in Medellín Colombia, I learned to program self-taught and with my learning I was able to do some personal projects and some freelance work, I have worked in a group and I always communicate well with people with respect and clarity, I like to contribute my ideas and listen to other opinions. In my spare time I ride a bicycle and study to learn more every day."
+  },
+  "projects": {
+    "btn_back": "to return",
+    "text_card_one": "consuming API From Rick And Morty (Responsive)",
+    "text_card_two": "Lnading Page Trading (Responsive)",
+    "text_card_three": "Lnading Page Amatrix (Responsive)"
+  }
+}

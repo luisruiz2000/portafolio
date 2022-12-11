@@ -1,0 +1,44 @@
+.container_t {
+   padding: 4rem 7rem;
+   text-align: center;
+   color: rgb(231, 228, 228);
+   font-weight: bolder;
+}
+
+.titles_technologies {
+   font-size: 2.5rem;
+   padding: 0 0 2rem 0;
+}
+
+.container_icon {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.icons_technologies {
+   width: 9vw;
+   margin: 1rem 2rem;
+}
+
+.icons_technologies:hover {
+   animation-name: bounce;
+   animation-duration: 1s;
+   animation-iteration-count: 1;
+}
+
+@keyframes bounce {
+   0% {
+      top: 0px;
+   }
+
+   50% {
+      top: 249px;
+      width: 17vh;
+   }
+
+   100% {
+      top: 0px;
+   }
+}
