@@ -23,16 +23,22 @@ const Projects = () => {
         </h1>
         <p className={subtitle_projects}> {t("main.text_projects")} </p>
 
-        <a className={link_cv}>
+        <div className={link_cv}>
           <a
             href="./Luis_Fernando.pdf"
-            download
             target="blanck"
+            download
             className={btn_cv}
           >
-            {t("main.text_btn")}
+            {t("main.text_btn_one")}
           </a>
-        </a>
+        </div>
+
+        <div className={link_cv}>
+          <a href="./Luis_Fernando.pdf" target="blanck" className={btn_cv}>
+            {t("main.text_btn_two")}
+          </a>
+        </div>
       </div>
     </div>
   );

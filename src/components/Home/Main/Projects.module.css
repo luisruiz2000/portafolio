@@ -18,7 +18,7 @@
 .title_name {
    letter-spacing: 2px;
    font-weight: bold;
-   font-size: 3rem;
+   font-size: 3.5rem;
 }
 
 .subtitle_projects {
@@ -33,6 +33,7 @@
    justify-content: center;
    text-decoration: none;
    width: auto;
+   margin: 1rem;
 }
 
 .btn_cv {
