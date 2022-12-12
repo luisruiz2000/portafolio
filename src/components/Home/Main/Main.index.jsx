@@ -15,7 +15,7 @@ const Projects = () => {
 
   return (
     <div className={container_projects} id="main">
-      <img className={myPotho} src={img} alt="Foto" />
+      {/* <img className={myPotho} src={img} alt="Foto" /> */}
 
       <div>
         <h1 className={title_name}>
