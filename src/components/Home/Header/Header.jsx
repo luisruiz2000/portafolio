@@ -20,9 +20,13 @@ const Header = () => {
         <a className={nav_a} href="#technologies">
           {t("header.technologies")}
         </a>
-        <a className={nav_a} href="#contac">
+        <a className={nav_a} href="../">
           {t("header.contact")}
         </a>
+        <a href="./Emprendimiento.pdf" target="blanck" className={nav_a}>
+          {t("header.certificates")}
+        </a>
+
         <Link to="projects" className={nav_a}>
           {t("header.projects")}
         </Link>
