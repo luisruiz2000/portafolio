@@ -20,7 +20,7 @@ const Header = () => {
         <a className={nav_a} href="#technologies">
           {t("header.technologies")}
         </a>
-        <a className={nav_a} href="../">
+        <a className={nav_a} href="#contac">
           {t("header.contact")}
         </a>
         <a href="./Emprendimiento.pdf" target="blanck" className={nav_a}>
