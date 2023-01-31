@@ -32,8 +32,13 @@
    color: #faebd784;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1024px) {
    .container_header {
       background-color: red;
+   }
+
+   .nav_header {
+      width: 65%;
+      padding: 0 3rem 0 0;
    }
 }

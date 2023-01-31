@@ -6,6 +6,7 @@ import Footer from "../Home/Footer/index";
 import img_back from "../../assets/image/back.svg";
 import img_amatrix from "../../assets/image/img_amatrix.png";
 import img_tranding from "../../assets/image/img_trading.png";
+import img_pokemon from "../../assets/image/img_pokemon.png";
 import rickandmorty from "../../assets/image/rickandmorty.png";
 import icon_react from "../../assets/icon/icon_react.png";
 import icon_vite from "../../assets/icon/icon_vite.svg";
@@ -27,7 +28,6 @@ import {
   card_img,
   title_card,
   icon_cards,
-  container_icon_cards,
 } from "./Projects.module.css";
 const Projects = () => {
   const [t] = useTranslation("global");
@@ -48,8 +48,8 @@ const Projects = () => {
         >
           <img className={card_img} src={rickandmorty} />
           <div className={card_info}>
-            <h3 className={title_card}>{t("projects.text_card_one")}</h3>
-            <div className={container_icon_cards}>
+            <h3 className={title_card}>{t("projects.text_rickAndMorty")}</h3>
+            <div>
               <img className={icon_cards} src={icon_html} />
               <img className={icon_cards} src={icon_sass} />
               <img className={icon_cards} src={icon_js} />
@@ -67,7 +67,7 @@ const Projects = () => {
         >
           <img className={card_img} src={img_tranding} />
           <div className={card_info}>
-            <h3 className={title_card}>{t("projects.text_card_two")}</h3>
+            <h3 className={title_card}>{t("projects.text_trading")}</h3>
             <div>
               <img className={icon_cards} src={icon_html} />
               <img className={icon_cards} src={icon_sass} />
@@ -85,12 +85,31 @@ const Projects = () => {
         >
           <img className={card_img} src={img_amatrix} />
           <div className={card_info}>
-            <h3 className={title_card}> {t("projects.text_card_three")}</h3>
+            <h3 className={title_card}> {t("projects.text_amatrix")}</h3>
             <div>
               <img className={icon_cards} src={icon_html} />
               <img className={icon_cards} src={icon_css} />
               <img className={icon_cards} src={icon_js} />
               <img className={icon_cards} src={icon_vue} />
+              <img className={icon_cards} src={icon_vite} />
+            </div>
+          </div>
+        </a>
+
+        <a
+          className={card}
+          data-aos="fade-up"
+          target="blank"
+          href="https://stirring-crepe-a72a79.netlify.app/"
+        >
+          <img className={card_img} src={img_pokemon} />
+          <div className={card_info}>
+            <h3 className={title_card}> {t("projects.text_app_pokemon")}</h3>
+            <div>
+              <img className={icon_cards} src={icon_html} />
+              <img className={icon_cards} src={icon_css} />
+              <img className={icon_cards} src={icon_js} />
+              <img className={icon_cards} src={icon_react} />
               <img className={icon_cards} src={icon_vite} />
             </div>
           </div>

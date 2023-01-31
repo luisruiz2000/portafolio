@@ -10,6 +10,7 @@ import icon_node from "../../../assets/icon/icon_node.png";
 import icon_vue from "../../../assets/icon/icon_vue.png";
 import icon_nuxt from "../../../assets/icon/icon_nuxt.png";
 import icon_sql from "../../../assets/icon/icon_sql.png";
+import icon_bootstrap from "../../../assets/icon/icon_bootstrap.png";
 
 import { useTranslation } from "react-i18next";
 import {
@@ -31,6 +32,7 @@ const Technologies = () => {
           <img className={icons_technologies} src={icon_html} alt="icon" />
           <img className={icons_technologies} src={icon_css} alt="icon" />
           <img className={icons_technologies} src={icon_js} alt="icon" />
+          <img className={icons_technologies} src={icon_bootstrap} alt="icon" />
           <img className={icons_technologies} src={icon_sass} alt="icon" />
           <img className={icons_technologies} src={icon_react} alt="icon" />
           <img className={icons_technologies} src={icon_vue} alt="icon" />

@@ -21,8 +21,9 @@
   },
   "projects": {
     "btn_back": "to return",
-    "text_card_one": "consuming API From Rick And Morty (Responsive)",
-    "text_card_two": "Lnading Page Trading (Responsive)",
-    "text_card_three": "Lnading Page Amatrix (Responsive)"
+    "text_rickAndMorty": "consuming API From Rick And Morty (Responsive)",
+    "text_trading": "Lnading Page Trading (Responsive)",
+    "text_amatrix": "Lnading Page Amatrix (Responsive)",
+    "text_app_pokemon": "Pokemon App (Responsivo)"
   }
 }

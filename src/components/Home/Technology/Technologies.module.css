@@ -42,3 +42,14 @@
       top: 0px;
    }
 }
+
+@media (max-width: 1024px) {
+   .container_icon {
+      display: flex;
+      justify-content: center;
+   }
+
+   .titles_technologies {
+      padding: 0;
+   }
+}
