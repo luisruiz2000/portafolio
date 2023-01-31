@@ -100,7 +100,7 @@ const Projects = () => {
           className={card}
           data-aos="fade-up"
           target="blank"
-          href="https://stirring-crepe-a72a79.netlify.app/"
+          href="https://search-pokemones.netlify.app"
         >
           <img className={card_img} src={img_pokemon} />
           <div className={card_info}>
