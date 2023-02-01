@@ -8,7 +8,6 @@ import icon_react from "../../../assets/icon/icon_react.png";
 import icon_redux from "../../../assets/icon/icon_redux.png";
 import icon_node from "../../../assets/icon/icon_node.png";
 import icon_vue from "../../../assets/icon/icon_vue.png";
-import icon_nuxt from "../../../assets/icon/icon_nuxt.png";
 import icon_sql from "../../../assets/icon/icon_sql.png";
 import icon_bootstrap from "../../../assets/icon/icon_bootstrap.png";
 
@@ -36,7 +35,6 @@ const Technologies = () => {
           <img className={icons_technologies} src={icon_sass} alt="icon" />
           <img className={icons_technologies} src={icon_react} alt="icon" />
           <img className={icons_technologies} src={icon_vue} alt="icon" />
-          <img className={icons_technologies} src={icon_nuxt} alt="icon" />
           <img className={icons_technologies} src={icon_redux} alt="icon" />
           <img className={icons_technologies} src={icon_node} alt="icon" />
           <img className={icons_technologies} src={icon_sql} alt="icon" />

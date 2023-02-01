@@ -77,3 +77,31 @@
       top: 0px;
    }
 }
+
+@media (max-width: 768px) {
+   .container_projects {
+      padding: 20vh 0 5vh 0;
+   }
+
+   .title_name {
+      font-size: 2.5rem;
+   }
+
+   .subtitle_projects {
+      font-size: 2rem;
+   }
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+   .container_projects {
+      padding: 15vh 0 5vh 0;
+   }
+
+   .title_name {
+      font-size: 2rem;
+   }
+
+   .subtitle_projects {
+      font-size: 1.5rem;
+   }
+}

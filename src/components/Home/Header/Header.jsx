@@ -1,8 +1,15 @@
 import React from "react";
-import { container_header, nav_header, nav_a } from "./Header.module.css";
 import { Link } from "react-router-dom";
 import Language from "../Language/index.language";
 import { useTranslation } from "react-i18next";
+import logoProjects from "../../../assets/icon/projects.png";
+import {
+  container_header,
+  nav_header,
+  nav_a,
+  movile_none,
+  iconProjects,
+} from "./Header.module.css";
 const Header = () => {
   const [t] = useTranslation("global");
 
@@ -14,20 +21,25 @@ const Header = () => {
     >
       <Language />
       <nav className={nav_header}>
-        <a className={nav_a} href="#main">
+        <a className={`${nav_a} ${movile_none}`} href="#main">
           {t("header.beginning")}
         </a>
-        <a className={nav_a} href="#technologies">
+        <a className={`${nav_a} ${movile_none}`} href="#technologies">
           {t("header.technologies")}
         </a>
-        <a className={nav_a} href="#contac">
+        <a className={`${nav_a} ${movile_none}`} href="#contac">
           {t("header.contact")}
         </a>
-        <a href="./Emprendimiento.pdf" target="blanck" className={nav_a}>
+        <a
+          href="./Emprendimiento.pdf"
+          target="blanck"
+          className={`${nav_a} ${movile_none}`}
+        >
           {t("header.certificates")}
         </a>
 
-        <Link to="projects" className={nav_a}>
+        <Link to="/projects" className={nav_a}>
+          <img className={iconProjects} src={logoProjects} />
           {t("header.projects")}
         </Link>
       </nav>

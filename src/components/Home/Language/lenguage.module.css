@@ -29,3 +29,16 @@
       width: 70%;
    }
 }
+
+@media (max-width: 900px) {
+   .container_lng {
+      width: 30%;
+   }
+}
+
+
+@media (min-width: 320px) and (max-width: 706px) {
+   .container_lng {
+      margin-left: 15rem;
+   }
+}

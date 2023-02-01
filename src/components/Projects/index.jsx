@@ -1,4 +1,3 @@
-import Language from "../Home/Language/index.language";
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -14,7 +13,6 @@ import icon_css from "../../assets/icon/icon_css.png";
 import icon_html from "../../assets/icon/icon_html.png";
 import icon_sass from "../../assets/icon/icon_sass.png";
 import icon_vue from "../../assets/icon/icon_vue.png";
-import icon_nuxt from "../../assets/icon/icon_nuxt.png";
 import icon_js from "../../assets/icon/icon_js.png";
 
 import {
@@ -34,7 +32,6 @@ const Projects = () => {
 
   return (
     <div className={container_projects}>
-      <Language />
       <Link to="/" className={back}>
         <img className={icon_back} src={img_back} />
         <span className={text_back}>{t("projects.btn_back")}</span>
@@ -71,8 +68,8 @@ const Projects = () => {
             <div>
               <img className={icon_cards} src={icon_html} />
               <img className={icon_cards} src={icon_sass} />
+              <img className={icon_cards} src={icon_vue} />
               <img className={icon_cards} src={icon_js} />
-              <img className={icon_cards} src={icon_nuxt} />
             </div>
           </div>
         </a>

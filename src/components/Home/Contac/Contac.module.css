@@ -17,3 +17,16 @@
 .icons_contac {
   width: 5rem;
 }
+
+
+@media (max-width: 768px) {
+  .container_icons {
+    width: 100%;
+    justify-content: space-around;
+    margin: 1rem 0;
+  }
+
+  .icons_contac {
+    width: 4rem;
+  }
+}

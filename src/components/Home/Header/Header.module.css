@@ -32,13 +32,36 @@
    color: #faebd784;
 }
 
+
+.iconProjects {
+   display: none;
+}
+
 @media (max-width: 1024px) {
-   .container_header {
-      background-color: red;
-   }
 
    .nav_header {
-      width: 65%;
+      width: 20%;
       padding: 0 3rem 0 0;
+   }
+}
+
+@media (min-width: 280px) and (max-width: 1024px) {
+   .nav_header {
+      justify-content: space-between;
+   }
+
+   .nav_a {
+      display: flex;
+      align-items: center;
+      font-size: 1.2rem;
+   }
+
+   .iconProjects {
+      display: block;
+      width: 2rem;
+   }
+
+   .movile_none {
+      display: none;
    }
 }
