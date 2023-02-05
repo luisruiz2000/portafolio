@@ -18,12 +18,5 @@
   "me": {
     "title": "About me",
     "text": "I am Luis Fernando Rengifo Ruiz and I live in Medellín Colombia, I learned to program self-taught and with my learning I was able to do some personal projects and some freelance work, I have worked in a group and I always communicate well with people with respect and clarity, I like to contribute my ideas and listen to other opinions. In my spare time I ride a bicycle and study to learn more every day."
-  },
-  "projects": {
-    "btn_back": "to return",
-    "text_rickAndMorty": "consuming API From Rick And Morty (Responsive)",
-    "text_trading": "Lnading Page Trading (Responsive)",
-    "text_amatrix": "Lnading Page Amatrix (Responsive)",
-    "text_app_pokemon": "Pokemon App (Responsivo)"
   }
 }

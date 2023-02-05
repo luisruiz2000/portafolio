@@ -17,13 +17,6 @@
   },
   "me": {
     "title": "Acerca De Mi",
-    "text": "Soy  Luis Fernando Rengifo Ruiz y vivo en Medellín Colombia, aprendí a programar de forma autodidacta y con mi aprendizaje  pude realizar algunos proyectos personales y algunos trabajos como freelance, he trabajado en grupo y me comunico bien con las persona siempre con respeto y con claridad, me gusta aportar  mis ideas y escuchar otra opiniones, en mis tiempos libres monto bicicleta y estudio para aprender cada día mas. "
-  },
-  "projects": {
-    "btn_back": "Regresar",
-    "text_rickAndMorty": "Consumiendo API De Rick And Morty (Responsivo)",
-    "text_trading": "Lnading Page Trading (Responsivo)",
-    "text_amatrix": "Lnading Page Amatrix (Responsivo)",
-    "text_app_pokemon": "Aplicacion De Pokemon (Responsivo)"
+    "text": "Soy  Luis Fernando Rengifo Ruiz y vivo en Medellín Colombia, aprendí a programar de forma autodidacta y con mi aprendizaje  pude realizar algunos proyectos personales y algunos trabajos como freelance, he trabajado en grupo y me comunico bien con las persona siempre con respeto y con claridad, me gusta aportar  mis ideas y escuchar otras opiniones, en mis tiempos libres monto bicicleta y estudio para aprender cada día mas. "
   }
 }
