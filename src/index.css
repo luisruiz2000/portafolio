@@ -4,10 +4,7 @@ body {
 }
 
 :root {
-  /* font-family: sans-serif; */
+  font-family: sans-serif;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url('./assets//image/bg_page.jpg');
-  background-position: center;
-  background-size: cover;
 }
