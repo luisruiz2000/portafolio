@@ -1,0 +1,21 @@
+.containerHeader {
+  height: 100vh;
+  background-image: url('../../assets/image/bg_header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+
+.textHeader {
+  width: 50%;
+  background-color: #f0f0f01a;
+  backdrop-filter: blur(10px);
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+}
+
+.btnMenu {
+  background-color: #4093f31a;
+
+}

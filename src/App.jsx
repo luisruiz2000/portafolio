@@ -1,17 +1,20 @@
-import Home from "./components/Home/index.Home";
-import { Routes, Route } from "react-router-dom";
 import AOS from "aos";
-import Projects from "./components/Projects";
+import AbautMe from "./components/AbautMe/AbautMe";
+import Header from "./components/Header/Header";
+import MyProjects from "./components/MyProjects/MyProjects";
+import Nav from "./components/NavBar/Nav";
+import Technologies from "./components/Technologies/Technologies";
 
 AOS.init();
 
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
+      <Nav />
+      <Header />
+      <AbautMe />
+      <MyProjects />
+      <Technologies />
     </div>
   );
 }
