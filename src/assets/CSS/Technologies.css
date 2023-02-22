@@ -36,8 +36,7 @@
 
   .iconTecgnologies {
     margin: .5em;
-    width: 5em;
-    padding-bottom: 3rem;
+    width: 3.1em;
   }
 }
 
@@ -45,5 +44,6 @@
   .iconTecgnologies {
     width: 2.5em;
     margin: .1em;
+    padding-bottom: 1rem;
   }
 }
