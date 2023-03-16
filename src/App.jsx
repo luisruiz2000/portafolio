@@ -2,7 +2,7 @@ import AOS from "aos";
 import AbautMe from "./components/AbautMe/AbautMe";
 import Header from "./components/Header/Header";
 import MyProjects from "./components/MyProjects/MyProjects";
-import Nav from "./components/NavBar/Nav";
+import NavBar from "./components/NavBar/NavBar";
 import Technologies from "./components/Technologies/Technologies";
 
 AOS.init();
@@ -10,10 +10,10 @@ AOS.init();
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <NavBar />
       <Header />
-      <AbautMe />
       <MyProjects />
+      <AbautMe />
       <Technologies />
     </div>
   );

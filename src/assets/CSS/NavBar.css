@@ -1,0 +1,18 @@
+.bgNav {
+  background-color: #042d491a;
+  backdrop-filter: blur(50px);
+}
+
+.textNav:hover {
+  color: #afaeae !important;
+}
+
+.iconNav {
+  color: aliceblue;
+}
+
+@media(max-width: 992px) {
+  .bgNav {
+    background-color: rgba(171, 171, 231, 0.664);
+  }
+}

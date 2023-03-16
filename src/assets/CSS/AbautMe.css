@@ -1,13 +1,12 @@
 .contentAbaut {
   height: 100vh;
-  background-image: url('../../assets//image//bg-AbautMe.jpg');
-  background-position: center;
-  background-size: cover;
+  background: #0F2027;
   display: flex;
   justify-content: start;
   align-items: center;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
-
 
 .textAbaut {
   width: 60%;

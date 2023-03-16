@@ -15,7 +15,17 @@
   letter-spacing: 1px;
 }
 
-.btnMenu {
-  background-color: #4093f31a;
 
+.iconContact {
+  width: 4rem;
+}
+
+@media(max-width: 740px) {
+  .textHeader {
+    width: 90%;
+  }
+
+  .iconContact {
+    width: 3rem;
+  }
 }

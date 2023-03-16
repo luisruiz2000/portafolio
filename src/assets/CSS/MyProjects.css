@@ -1,5 +1,8 @@
 .containerMyProjects {
-  background-color: rgb(3, 5, 7);
+  background: #2C3E50;
+  background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+  background: linear-gradient(to right, #4CA1AF, #2C3E50);
+
 }
 
 .containerImgProjects {
@@ -18,12 +21,12 @@
 
 .linkMyProjects {
   transition: .5s;
-  border: solid 2px red;
+  border: solid 1px green;
 }
 
 .linkMyProjects:hover {
-  border: solid 2px green;
-  border-radius: 5rem;
+  border: solid .1px red;
+  border-radius: 2rem;
 }
 
 @media (max-width: 1000px) {

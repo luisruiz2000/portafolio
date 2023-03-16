@@ -26,7 +26,7 @@ const Technologies = () => {
         Tecnologias
       </h1>
       <div
-        className=" bg mx-5 py-1"
+        className="mx-5 py-1"
         data-aos="zoom-in-left"
         data-aos-delay="300"
         data-aos-offset="0"
