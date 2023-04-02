@@ -8,7 +8,7 @@ import "../../assets/CSS/MyProjects.css";
 const MyProjects = () => {
   return (
     <center className="containerMyProjects px-5 pb-5 pt-3" id="myProjects">
-      <h1 className="py-5 text-white">Mis Proyectos</h1>
+      <h1 className="py-5 text-white">Mi experiencia y proyectos</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4 containerMyProjects">
         <a
           data-aos="fade-up"
@@ -29,6 +29,33 @@ const MyProjects = () => {
                 En esta App podrá ver el clima de la ciudad ingresada, y varios
                 datos mas incluyendo predicciones del clima en las próximas 6
                 horas (React).
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          target="_blank"
+          className="col text-decoration-none text-reset"
+          href="https://landing-page-tranding.netlify.app
+
+"
+        >
+          <div className="card h-100 linkMyProjects">
+            <img
+              src={projectTrading}
+              className="card-img-top border"
+              alt="Imagen"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Traiding</h5>
+              <p className="card-text">
+                Landing Page de Traiding con Presentación, opción de ingles o
+                español, preguntas frecuentes y con formularios validados para
+                iniciar sesión o para registrarse. (vue)
               </p>
             </div>
           </div>
@@ -57,28 +84,28 @@ const MyProjects = () => {
             </div>
           </div>
         </a>
+
         <a
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
           target="_blank"
           className="col text-decoration-none text-reset"
-          href="https://landing-page-tranding.netlify.app
-
-"
+          href="https://amatrix.netlify.app/"
         >
           <div className="card h-100 linkMyProjects">
             <img
-              src={projectTrading}
+              src={projectAmatrix}
               className="card-img-top border"
               alt="Imagen"
             />
             <div className="card-body">
-              <h5 className="card-title">Traiding</h5>
+              <h5 className="card-title">Amatix</h5>
               <p className="card-text">
-                Landing Page de Traiding con Presentación, opción de ingles o
-                español, preguntas frecuentes y con formularios validados para
-                iniciar sesión o para registrarse. (vue)
+                Landing Page con Presentación, opción de ingles o español,
+                instrucciones, términos y con formularios validados para iniciar
+                sesión o para registrarse. (Vue)
               </p>
             </div>
           </div>
@@ -103,31 +130,6 @@ const MyProjects = () => {
               <p className="card-text">
                 Consumiendo Api para mostrar los personajes de la serie Rick and
                 Morty con algunas características de estos. (React)
-              </p>
-            </div>
-          </div>
-        </a>
-        <a
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="300"
-          data-aos-offset="0"
-          target="_blank"
-          className="col text-decoration-none text-reset"
-          href="https://amatrix.netlify.app/"
-        >
-          <div className="card h-100 linkMyProjects">
-            <img
-              src={projectAmatrix}
-              className="card-img-top border"
-              alt="Imagen"
-            />
-            <div className="card-body">
-              <h5 className="card-title">Amatix</h5>
-              <p className="card-text">
-                Landing Page con Presentación, opción de ingles o español,
-                instrucciones, términos y con formularios validados para iniciar
-                sesión o para registrarse. (Vue)
               </p>
             </div>
           </div>

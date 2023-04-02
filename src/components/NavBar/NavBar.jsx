@@ -18,11 +18,11 @@ const NavBar = () => {
             <span className="navbar-toggler-icon iconNav"></span>
           </button>
           <a
-            className="navbar-brand text-white textNav"
+            className="btn navbar-brand text-white textNav"
             href="./Luis_Fernando.pdf"
             target="_blank"
           >
-            Ver Curriculum
+            Curriculum
           </a>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -32,7 +32,7 @@ const NavBar = () => {
                   aria-current="page"
                   href="#header"
                 >
-                  | Inicio |
+                  Inicio |
                 </a>
               </li>
               <li className="nav-item">
@@ -41,7 +41,7 @@ const NavBar = () => {
                   aria-current="page"
                   href="#myProjects"
                 >
-                  | Proyectos |
+                  | Experiencia |
                 </a>
               </li>
               <li className="nav-item">
