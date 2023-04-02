@@ -20,7 +20,7 @@ const Technologies = () => {
       <h1
         className="text-white mb-4 bg p-2 w-75 mx-5"
         data-aos="zoom-in"
-        data-aos-delay="300"
+        data-aos-delay="200"
         data-aos-offset="0"
       >
         Tecnologias
@@ -28,7 +28,7 @@ const Technologies = () => {
       <div
         className="mx-5 py-1"
         data-aos="zoom-in-left"
-        data-aos-delay="300"
+        data-aos-delay="200"
         data-aos-offset="0"
       >
         <img className="img-fluit iconTecgnologies" src={icon_html} />
