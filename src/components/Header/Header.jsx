@@ -7,38 +7,29 @@ import whatsApp from "./../../assets/icon/icon_wpp.png";
 
 const Header = () => {
   return (
-    <div
-      className="containerHeader d-flex  align-items-center justify-content-center"
-      id="header"
-      data-aos="flip-right"
-    >
-      <div
-        data-aos="flip-left"
-        className="p-5 px-5 d-flex align-items-center justify-content-center flex-column textHeader"
-      >
-        <h1 className="text-center" data-aos="fade-up" data-aos-duration="2000">
-          Soy Luis Fernando Rengifo <br />
-          Desarrollador Front End
-        </h1>
-        <div className="d-flex justify-content-evenly w-100 flex-wrap mt-3">
-          <a
+   <div id="header" className="containerHeader d-flex align-items-center justify-content-center flex-column">
+    <section className="bgBlur textHeader w-50 p-5 fs-5 text-center">
+      <span className="fs-1">¡Hola!</span> Soy Luis Fernando, un desarrollador front-end junior con experiencia en proyectos freelance y trabajos personales. Me apasiona el diseño web y la tecnología, y siempre busco nuevas formas de aprender, emprender y mejorar mis habilidades. En mi tiempo libre, disfruto montar en bicicleta, viajar y tomar café. Estoy emocionado de seguir creciendo en el mundo del desarrollo web.
+    </section>
+    <section className="bgBlur px-5 pb-3">
+       <a
             target="_blank"
             href="https://www.linkedin.com/in/luis-fernando-rengifo-ruiz-9b5290245/"
           >
-            <img className="iconContact" src={linkedin} />
+            <img className="iconContact mx-2" src={linkedin} />
           </a>
           <a target="_blank" href="https://github.com/luisruiz2000">
-            <img className="iconContact" src={gitHub} />
+            <img className="iconContact mx-2" src={gitHub} />
           </a>
           <a target="_blank" href="https://www.instagram.com/moroxxo._.l/">
-            <img className="iconContact" src={instagram} />
+            <img className="iconContact mx-2" src={instagram} />
           </a>
           <a target="_blank" href="https://wa.link/nxmibr">
-            <img className="iconContact" src={whatsApp} />
+            <img className="iconContact mx-2" src={whatsApp} />
           </a>
-        </div>
-      </div>
-    </div>
+    </section>
+   </div>
+      
   );
 };
 

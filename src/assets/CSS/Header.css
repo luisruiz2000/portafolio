@@ -1,14 +1,12 @@
 .containerHeader {
   height: 100vh;
-  background-image: url('../../assets/image/bg_header.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
   color: aliceblue;
 }
 
-.textHeader {
-  width: 50%;
+.bgBlur {
   background-color: #f0f0f01a;
   backdrop-filter: blur(10px);
   color: rgb(255, 255, 255);
@@ -20,12 +18,22 @@
   width: 4rem;
 }
 
-@media(max-width: 740px) {
-  .textHeader {
-    width: 90%;
-  }
+.textHeader {
+  line-height: 2rem;
+}
 
+
+@media(max-width: 991px) {
+
+  .textHeader {
+    width: 90% !important;
+    line-height: 1.5rem;
+    padding: 1rem !important;
+    font-size: 1rem !important;
+  }
+  
   .iconContact {
-    width: 3rem;
+    padding-top: 1rem;
+    width: 2.5rem;
   }
 }

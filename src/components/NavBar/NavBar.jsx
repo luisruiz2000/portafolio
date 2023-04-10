@@ -32,7 +32,7 @@ const NavBar = () => {
                   aria-current="page"
                   href="#header"
                 >
-                  Inicio |
+                  Inicio
                 </a>
               </li>
               <li className="nav-item">
@@ -41,7 +41,7 @@ const NavBar = () => {
                   aria-current="page"
                   href="#myProjects"
                 >
-                  | Experiencia |
+                 Experiencia
                 </a>
               </li>
               <li className="nav-item">
@@ -50,7 +50,7 @@ const NavBar = () => {
                   aria-current="page"
                   href="#technologies"
                 >
-                  | Tecnologias |
+                 Tecnologias
                 </a>
               </li>
             </ul>

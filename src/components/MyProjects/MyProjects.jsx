@@ -8,7 +8,7 @@ import "../../assets/CSS/MyProjects.css";
 const MyProjects = () => {
   return (
     <center className="containerMyProjects px-5 pb-5 pt-3" id="myProjects">
-      <h1 className="py-5 text-white">Mi experiencia y proyectos</h1>
+      <h1 data-aos="fade-up" className="py-5 text-white">Mi experiencia y proyectos</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4 containerMyProjects">
         <a
           data-aos="fade-up"
@@ -17,13 +17,13 @@ const MyProjects = () => {
           className="col text-decoration-none text-reset"
           href="https://good-weather-forecast-app.netlify.app"
         >
-          <div className="card h-100 linkMyProjects">
+          <div className="card h-100  linkMyProjects">
             <img
               src={projectWeather}
               className="card-img-top border"
               alt="Imagen"
             />
-            <div className="card-body">
+            <div className="card-body bgBlur">
               <h5 className="card-title">Predicción meteorológica</h5>
               <p className="card-text">
                 En esta App podrá ver el clima de la ciudad ingresada, y varios
@@ -44,13 +44,13 @@ const MyProjects = () => {
 
 "
         >
-          <div className="card h-100 linkMyProjects">
+          <div className="card h-100  linkMyProjects">
             <img
               src={projectTrading}
               className="card-img-top border"
               alt="Imagen"
             />
-            <div className="card-body">
+            <div className="card-body bgBlur">
               <h5 className="card-title">Traiding</h5>
               <p className="card-text">
                 Landing Page de Traiding con Presentación, opción de ingles o
@@ -68,13 +68,13 @@ const MyProjects = () => {
           className="col text-decoration-none text-reset"
           href="https://search-pokemones.netlify.app"
         >
-          <div className="card h-100 linkMyProjects">
+          <div className="card h-100  linkMyProjects">
             <img
               src={projectPokemon}
               className="card-img-top border"
               alt="Imagen"
             />
-            <div className="card-body">
+            <div className="card-body bgBlur">
               <h5 className="card-title">Busca El Pokemon</h5>
               <p className="card-text">
                 En Esta App podrás encontrar el pokemon por nombre o por ID,
@@ -94,13 +94,13 @@ const MyProjects = () => {
           className="col text-decoration-none text-reset"
           href="https://amatrix.netlify.app/"
         >
-          <div className="card h-100 linkMyProjects">
+          <div className="card h-100  linkMyProjects">
             <img
               src={projectAmatrix}
               className="card-img-top border"
               alt="Imagen"
             />
-            <div className="card-body">
+            <div className="card-body bgBlur">
               <h5 className="card-title">Amatix</h5>
               <p className="card-text">
                 Landing Page con Presentación, opción de ingles o español,
@@ -117,15 +117,15 @@ const MyProjects = () => {
           data-aos-duration="500"
           target="_blank"
           className="col text-decoration-none text-reset"
-          href="https://consumiendo-api-rick-and-morty.netlify.app"
+          href="https://rink-and-morty-app.netlify.app"
         >
-          <div className="card h-100 linkMyProjects">
+          <div className="card h-100  linkMyProjects">
             <img
               src={projectRickAndMorty}
               className="card-img-top border"
               alt="Imagen"
             />
-            <div className="card-body">
+            <div className="card-body bgBlur">
               <h5 className="card-title">Personajes de Rick and Morty</h5>
               <p className="card-text">
                 Consumiendo Api para mostrar los personajes de la serie Rick and
