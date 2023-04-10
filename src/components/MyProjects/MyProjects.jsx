@@ -35,9 +35,8 @@ const MyProjects = () => {
         </a>
 
         <a
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          data-aos="fade-up"
+          data-aos-duration="500"
           target="_blank"
           className="col text-decoration-none text-reset"
           href="https://landing-page-tranding.netlify.app
@@ -86,10 +85,8 @@ const MyProjects = () => {
         </a>
 
         <a
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="300"
-          data-aos-offset="0"
+         data-aos="fade-up"
+          data-aos-duration="500"
           target="_blank"
           className="col text-decoration-none text-reset"
           href="https://amatrix.netlify.app/"
@@ -111,9 +108,7 @@ const MyProjects = () => {
           </div>
         </a>
         <a
-          data-aos="fade-left"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
+           data-aos="fade-up"
           data-aos-duration="500"
           target="_blank"
           className="col text-decoration-none text-reset"

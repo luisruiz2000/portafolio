@@ -8,10 +8,10 @@ import whatsApp from "./../../assets/icon/icon_wpp.png";
 const Header = () => {
   return (
    <div id="header" className="containerHeader d-flex align-items-center justify-content-center flex-column">
-    <section className="bgBlur textHeader w-50 p-5 fs-5 text-center">
+    <section data-aos="fade-right" className="bgBlur textHeader w-50 p-5 fs-5 text-center">
       <span className="fs-1">¡Hola!</span> Soy Luis Fernando, un desarrollador front-end junior con experiencia en proyectos freelance y trabajos personales. Me apasiona el diseño web y la tecnología, y siempre busco nuevas formas de aprender, emprender y mejorar mis habilidades. En mi tiempo libre, disfruto montar en bicicleta, viajar y tomar café. Estoy emocionado de seguir creciendo en el mundo del desarrollo web.
     </section>
-    <section className="bgBlur px-5 pb-3">
+    <section data-aos="fade-left" className="bgBlur px-5 pb-3">
        <a
             target="_blank"
             href="https://www.linkedin.com/in/luis-fernando-rengifo-ruiz-9b5290245/"
