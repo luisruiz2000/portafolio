@@ -19,7 +19,7 @@ const NavBar = () => {
           </button>
           <a
             className="btn navbar-brand text-white textNav"
-            href="./Luis_Fernando.pdf"
+            href="./Luis Fernando.pdf"
             target="_blank"
           >
             Curriculum
@@ -41,7 +41,7 @@ const NavBar = () => {
                   aria-current="page"
                   href="#myProjects"
                 >
-                 Experiencia
+                  Experiencia
                 </a>
               </li>
               <li className="nav-item">
@@ -50,7 +50,7 @@ const NavBar = () => {
                   aria-current="page"
                   href="#technologies"
                 >
-                 Tecnologias
+                  Tecnologias
                 </a>
               </li>
             </ul>

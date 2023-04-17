@@ -1,25 +1,19 @@
-.containerMyProjects {
-  background: #0F2027;
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-
-}
-
 .linkMyProjects {
   transition: ease 1s;
+  color: #4D4DFF !important;
   border: solid 1px white;
 }
 
 .linkMyProjects:hover {
-  border: solid 2px black;
+  border: solid 2px rgb(110, 99, 99);
 }
 
 .bgBlur {
-  background-color: #0f2027d8;
+  background-color: #0F2027;
   transition: ease 2s;
 }
 
-.bgBlur:hover{
+.bgBlur:hover {
   background-color: #0F2027;
 }
 

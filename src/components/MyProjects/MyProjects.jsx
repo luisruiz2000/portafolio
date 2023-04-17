@@ -7,7 +7,7 @@ import projectRickAndMorty from "../../assets/image/projectRickAndMorty.png";
 import "../../assets/CSS/MyProjects.css";
 const MyProjects = () => {
   return (
-    <center className="containerMyProjects px-5 pb-5 pt-3" id="myProjects">
+    <center className="px-5 pb-5 pt-3" id="myProjects">
       <h1 data-aos="fade-up" className="py-5 text-white">Mi experiencia y proyectos</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4 containerMyProjects">
         <a
@@ -85,7 +85,7 @@ const MyProjects = () => {
         </a>
 
         <a
-         data-aos="fade-up"
+          data-aos="fade-up"
           data-aos-duration="500"
           target="_blank"
           className="col text-decoration-none text-reset"
@@ -108,7 +108,7 @@ const MyProjects = () => {
           </div>
         </a>
         <a
-           data-aos="fade-up"
+          data-aos="fade-up"
           data-aos-duration="500"
           target="_blank"
           className="col text-decoration-none text-reset"

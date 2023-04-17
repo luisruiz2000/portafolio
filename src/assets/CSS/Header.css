@@ -1,8 +1,5 @@
 .containerHeader {
   height: 100vh;
-  background: #0F2027;
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
   color: aliceblue;
 }
 
@@ -31,7 +28,7 @@
     padding: 1rem !important;
     font-size: 1rem !important;
   }
-  
+
   .iconContact {
     padding-top: 1rem;
     width: 2.5rem;
