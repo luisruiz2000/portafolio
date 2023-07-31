@@ -53,6 +53,16 @@ const NavBar = () => {
                   Tecnologias
                 </a>
               </li>
+              <li>
+
+                <a
+                  className="nav-link active text-white textNav"
+                  aria-current="page"
+                  href="#certificates"
+                >
+                  Certificados
+                </a>
+              </li>
             </ul>
           </div>
         </div>

@@ -1,6 +1,7 @@
 .containerHeader {
   height: 100vh;
   color: aliceblue;
+  background-color: rgba(47, 79, 79, 0.466);
 }
 
 .bgBlur {
@@ -13,10 +14,13 @@
 
 .iconContact {
   width: 4rem;
+  margin: 0 1.5rem !important;
 }
 
 .textHeader {
+  font-size: 1.4rem !important;
   line-height: 2rem;
+  color: aliceblue;
 }
 
 

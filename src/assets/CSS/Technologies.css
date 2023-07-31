@@ -5,6 +5,11 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 3rem;
+  background-color: rgba(47, 79, 79, 0.13);
+}
+
+.titleTec {
+  color: aliceblue !important;
 }
 
 .iconTecgnologies {

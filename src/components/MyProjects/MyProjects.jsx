@@ -24,7 +24,7 @@ const MyProjects = () => {
               alt="Imagen"
             />
             <div className="card-body bgBlur">
-              <h5 className="card-title">Predicción meteorológica</h5>
+              <h5 className="card-title fw-bold">Predicción meteorológica</h5>
               <p className="card-text">
                 En esta App podrá ver el clima de la ciudad ingresada, y varios
                 datos mas incluyendo predicciones del clima en las próximas 6
@@ -50,7 +50,7 @@ const MyProjects = () => {
               alt="Imagen"
             />
             <div className="card-body bgBlur">
-              <h5 className="card-title">Traiding</h5>
+              <h5 className="card-title fw-bold">Traiding</h5>
               <p className="card-text">
                 Landing Page de Traiding con Presentación, opción de ingles o
                 español, preguntas frecuentes y con formularios validados para
@@ -74,7 +74,7 @@ const MyProjects = () => {
               alt="Imagen"
             />
             <div className="card-body bgBlur">
-              <h5 className="card-title">Busca El Pokemon</h5>
+              <h5 className="card-title fw-bold">Busca El Pokemon</h5>
               <p className="card-text">
                 En Esta App podrás encontrar el pokemon por nombre o por ID,
                 arrojando varias características como El nombre, peso, tamaño
@@ -98,7 +98,7 @@ const MyProjects = () => {
               alt="Imagen"
             />
             <div className="card-body bgBlur">
-              <h5 className="card-title">Amatix</h5>
+              <h5 className="card-title fw-bold">Amatix</h5>
               <p className="card-text">
                 Landing Page con Presentación, opción de ingles o español,
                 instrucciones, términos y con formularios validados para iniciar
@@ -121,7 +121,7 @@ const MyProjects = () => {
               alt="Imagen"
             />
             <div className="card-body bgBlur">
-              <h5 className="card-title">Personajes de Rick and Morty</h5>
+              <h5 className="card-title fw-bold">Personajes de Rick and Morty</h5>
               <p className="card-text">
                 Consumiendo Api para mostrar los personajes de la serie Rick and
                 Morty con algunas características de estos. (React)

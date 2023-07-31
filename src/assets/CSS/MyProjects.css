@@ -5,16 +5,17 @@
 }
 
 .linkMyProjects:hover {
-  border: solid 2px rgb(110, 99, 99);
+  border: none;
 }
 
 .bgBlur {
-  background-color: #0F2027;
-  transition: ease 2s;
+  background-color: aliceblue;
+  transition: ease 1s;
+  color: black;
 }
 
 .bgBlur:hover {
-  background-color: #0F2027;
+  color: #2e2e2e;
 }
 
 @media (max-width: 1000px) {

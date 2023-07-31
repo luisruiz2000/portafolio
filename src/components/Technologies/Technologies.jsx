@@ -18,7 +18,7 @@ const Technologies = () => {
   return (
     <div className="containerTechnologies text-center" id="technologies">
       <h1
-        className="text-white mb-4 bg p-2 w-75 mx-5"
+        className="titleTec fw-bold text-white mb-4 bg p-2 w-75 mx-5"
         data-aos="zoom-in"
         data-aos-delay="200"
         data-aos-offset="0"
