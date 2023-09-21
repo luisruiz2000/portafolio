@@ -8,7 +8,7 @@ import "../../assets/CSS/MyProjects.css";
 const MyProjects = () => {
   return (
     <center className="px-5 pb-5 pt-3" id="myProjects">
-      <h1 data-aos="fade-up" className="py-5 text-white">Mi experiencia y proyectos</h1>
+      <h1 data-aos="fade-up" className="titleTec fw-bold text-white mb-4 bg p-2 w-75 mx-5">Mi experiencia y proyectos</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4 containerMyProjects">
         <a
           data-aos="fade-up"
