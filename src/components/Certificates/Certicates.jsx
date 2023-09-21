@@ -5,7 +5,7 @@ import jsAnsStructuraDatos from '../../assets/image/certificateJs.jpeg'
 const Cetificates = () => {
   return (
     <div id="certificates" className="certificates" data-aos="zoom-in">
-      <center className="titleCertificates fs-1">Cetificados</center>
+      <center className="titleCertificates fs-1">Certificados</center>
       <section className="allCertificates">
         <a target="_blank" href="https://www.freecodecamp.org/certification/LuisRuiz/responsive-web-design">
           <img className='certificatesImg' src={webRespondivo} />
