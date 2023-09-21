@@ -16,16 +16,17 @@ const Header = () => {
         <a
           target="_blank"
           href="https://www.linkedin.com/in/luis-fernando-rengifo-ruiz-9b5290245/"
+          title="LinkedIn"
         >
           <img className="iconContact mx-2" src={linkedin} />
         </a>
-        <a target="_blank" href="https://github.com/luisruiz2000">
+        <a target="_blank" href="https://github.com/luisruiz2000" title="GitHub">
           <img className="iconContact mx-2" src={gitHub} />
         </a>
-        <a target="_blank" href="https://wa.link/nxmibr">
+        <a target="_blank" href="https://wa.link/nxmibr" title="WhatsApp">
           <img className="iconContact mx-2" src={whatsApp} />
         </a>
-        <a target="_blank" href="https://www.freecodecamp.org/LuisRuiz">
+        <a target="_blank" href="https://www.freecodecamp.org/LuisRuiz" title="FreeCodeCamp">
           <img className="iconContact mx-2" src={freeCodeCam} />
         </a>
         <center className="mt-5 fs-5">luisruiz462000@gmail.com</center>
