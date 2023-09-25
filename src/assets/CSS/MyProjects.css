@@ -8,6 +8,10 @@
   border: none;
 }
 
+.card-img-top  {
+  height: 30vh;
+}
+
 .bgBlur {
   background-color: aliceblue;
   transition: ease 1s;

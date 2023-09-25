@@ -3,6 +3,7 @@ import projectWeather from "../../assets/image/projectWeather.png";
 import projectPokemon from "../../assets/image/projectPokemon.png";
 import projectTrading from "../../assets/image/projectTrading.png";
 import projectAmatrix from "../../assets/image/projectAmatrix.png";
+import proyjectChimba from "../../assets/image/chimba.webp";
 import projectRickAndMorty from "../../assets/image/projectRickAndMorty.png";
 import "../../assets/CSS/MyProjects.css";
 const MyProjects = () => {
@@ -28,7 +29,7 @@ const MyProjects = () => {
               <p className="card-text">
                 En esta App podrá ver el clima de la ciudad ingresada, y varios
                 datos mas incluyendo predicciones del clima en las próximas 6
-                horas (React).
+                horas. 
               </p>
             </div>
           </div>
@@ -54,7 +55,7 @@ const MyProjects = () => {
               <p className="card-text">
                 Landing Page de Traiding con Presentación, opción de ingles o
                 español, preguntas frecuentes y con formularios validados para
-                iniciar sesión o para registrarse. (vue)
+                iniciar sesión o para registrarse. 
               </p>
             </div>
           </div>
@@ -78,7 +79,7 @@ const MyProjects = () => {
               <p className="card-text">
                 En Esta App podrás encontrar el pokemon por nombre o por ID,
                 arrojando varias características como El nombre, peso, tamaño
-                entre otros datos (React)
+                entre otros datos. 
               </p>
             </div>
           </div>
@@ -102,7 +103,7 @@ const MyProjects = () => {
               <p className="card-text">
                 Landing Page con Presentación, opción de ingles o español,
                 instrucciones, términos y con formularios validados para iniciar
-                sesión o para registrarse. (Vue)
+                sesión o para registrarse. 
               </p>
             </div>
           </div>
@@ -124,11 +125,33 @@ const MyProjects = () => {
               <h5 className="card-title fw-bold">Personajes de Rick and Morty</h5>
               <p className="card-text">
                 Consumiendo Api para mostrar los personajes de la serie Rick and
-                Morty con algunas características de estos. (React)
+                Morty con algunas características de estos. 
               </p>
             </div>
           </div>
         </a>
+        <a
+          data-aos="fade-up"
+          data-aos-duration="500"
+          target="_blank"
+          className="col text-decoration-none text-reset"
+          href="https://play.google.com/store/apps/details?id=ooo.chimba.chimbaWallet"
+        >
+          <div className="card h-100  linkMyProjects">
+            <img
+              src={proyjectChimba}
+              className="card-img-top border"
+              alt="Imagen"
+            />
+            <div className="card-body bgBlur">
+              <h5 className="card-title fw-bold">Billetera Movil</h5>
+              <p className="card-text">
+              Desarrollo de Billetera para Android y IOS, donde puede implementar funcionalidades nuevas, formularios, validación otp, nuevas vistas y más.
+              </p>
+            </div>
+          </div>
+        </a>
+        
       </div>
     </center>
   );
