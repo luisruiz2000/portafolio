@@ -1,73 +1,44 @@
 import React from "react";
 import "../../assets/CSS/NavBar.css";
 
+import linkedin from "./../../assets/icon/icon_linkedin.png";
+import gitHub from "./../../assets/icon/icon_github.png";
+
 const NavBar = () => {
   return (
-    <div className="fixed-top">
-      <nav className="navbar navbar-expand-lg bgNav">
-        <div className="container-fluid">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon iconNav"></span>
-          </button>
-          <a
-            className="btn navbar-brand text-white textNav"
-            href="./Luis Fernando.pdf"
-            target="_blank"
-          >
-            Curriculum
-          </a>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a
-                  className="nav-link active text-white textNav"
-                  aria-current="page"
-                  href="#header"
-                >
-                  Inicio
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link active text-white textNav"
-                  aria-current="page"
-                  href="#myProjects"
-                >
-                  Experiencia
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link active text-white textNav"
-                  aria-current="page"
-                  href="#technologies"
-                >
-                  Tecnologias
-                </a>
-              </li>
-              <li>
-
-                <a
-                  className="nav-link active text-white textNav"
-                  aria-current="page"
-                  href="#certificates"
-                >
-                  Certificados
-                </a>
-              </li>
-            </ul>
+    <nav data-aos="fade-down" class="navbar navbar-expand-lg navContent sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h1 className="log">LF</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">
+              Home
+            </a>
+            <a class="nav-link" href="#">
+              Features
+            </a>
+            <a class="nav-link" href="#">
+              Pricing
+            </a>
+            <a class="nav-link" aria-disabled="true">
+              Disabled
+            </a>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 

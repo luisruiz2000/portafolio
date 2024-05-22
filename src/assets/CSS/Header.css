@@ -1,40 +1,31 @@
-.containerHeader {
+#header {
+  position: relative; 
   height: 100vh;
-  color: aliceblue;
-  background-color: rgba(69, 107, 107, 0.13);
+  background-image: url('../image/bgHeaderr.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  font-family: "Jersey 25 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
-.bgBlur {
-  background-color: #f0f0f01a;
-  backdrop-filter: blur(10px);
-  color: rgb(255, 255, 255);
-  letter-spacing: 1px;
+#header::before {
+  content: ''; 
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
 }
 
-
-.iconContact {
-  width: 4rem;
-  margin: 0 1.5rem !important;
-}
-
-.textHeader {
-  font-size: 1.4rem !important;
-  line-height: 2rem;
-  color: aliceblue;
-}
-
-
-@media(max-width: 991px) {
-
-  .textHeader {
-    width: 90% !important;
-    line-height: 1.5rem;
-    padding: 1rem !important;
-    font-size: 1rem !important;
-  }
-
-  .iconContact {
-    padding-top: 1rem;
-    width: 2.5rem;
-  }
+.titleHeader {
+  color: rgb(240, 248, 255);
+  padding: 0 0 0 10rem;
+  font-size: 3rem;
+  position: relative; 
+  z-index: 2; 
 }
