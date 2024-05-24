@@ -1,159 +1,116 @@
 import React from "react";
-import projectWeather from "../../assets/image/projectWeather.png";
-import projectPokemon from "../../assets/image/projectPokemon.png";
-import projectTrading from "../../assets/image/projectTrading.png";
-import projectAmatrix from "../../assets/image/projectAmatrix.png";
-import proyjectChimba from "../../assets/image/chimba.webp";
-import projectRickAndMorty from "../../assets/image/projectRickAndMorty.png";
 import "../../assets/CSS/MyProjects.css";
+import CardProjects from "../CardsProjects/CardProjects";
+
+import Chimba from "../../assets/image/chimba.png";
+import Trading from "../../assets/image/projectTrading.png";
+import Amatrix from "../../assets/image/projectAmatrix.png";
+import Carbonera from "../../assets/image/carbonera.png";
+import ProjectWeather from "../../assets/image/projectWeather.png";
+import PokeDex from "../../assets/image/projectPokemon.png";
+
+import IconJs from "../../assets/icon/icon_js.png";
+import IconReact from "../../assets/icon/icon_react.png";
+import IconRedux from "../../assets/icon/icon_redux.png";
+import IconCss from "../../assets/icon/icon_css.png";
+import IconNodejs from "../../assets/icon/icon_node.png";
+import IconHtml from "../../assets/icon/icon_html.png";
+import IconVue from "../../assets/icon/icon_vue.png";
+import IconSQL from "../../assets/icon/icon_sql.png";
+import IconSass from "../../assets/icon/icon_sass.png";
+import iconGitHub from "../../assets/icon/icon_github.png";
+import IconBotstrap from "../../assets/icon/icon_bootstrap.png";
 const MyProjects = () => {
   return (
-    <center className="px-5 pb-5 pt-3" id="myProjects">
-      <h1 data-aos="fade-up" className="titleTec fw-bold text-white mb-4 bg p-5 w-75 mx-5">Mi experiencia y proyectos</h1>
-      <div className="row row-cols-1 row-cols-md-3 g-4 containerMyProjects">
-        <a
-          data-aos="fade-up"
-          data-aos-duration="500"
-          target="_blank"
-          className="col text-decoration-none text-reset"
-          href="https://good-weather-forecast-app.netlify.app"
-        >
-          <div className="card h-100  linkMyProjects">
-            <img
-              src={projectWeather}
-              className="card-img-top border"
-              alt="Imagen"
-            />
-            <div className="card-body bgBlur">
-              <h5 className="card-title fw-bold">Predicción meteorológica</h5>
-              <p className="card-text">
-                En esta App podrá ver el clima de la ciudad ingresada, y varios
-                datos mas incluyendo predicciones del clima en las próximas 6
-                horas. 
-              </p>
-            </div>
-          </div>
-        </a>
-
-        <a
-          data-aos="fade-up"
-          data-aos-duration="500"
-          target="_blank"
-          className="col text-decoration-none text-reset"
-          href="https://landing-page-tranding.netlify.app
-
-"
-        >
-          <div className="card h-100  linkMyProjects">
-            <img
-              src={projectTrading}
-              className="card-img-top border"
-              alt="Imagen"
-            />
-            <div className="card-body bgBlur">
-              <h5 className="card-title fw-bold">Traiding</h5>
-              <p className="card-text">
-                Landing Page de Traiding con Presentación, opción de ingles o
-                español, preguntas frecuentes y con formularios validados para
-                iniciar sesión o para registrarse. 
-              </p>
-            </div>
-          </div>
-        </a>
-        <a
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="500"
-          target="_blank"
-          className="col text-decoration-none text-reset"
-          href="https://search-pokemones.netlify.app"
-        >
-          <div className="card h-100  linkMyProjects">
-            <img
-              src={projectPokemon}
-              className="card-img-top border"
-              alt="Imagen"
-            />
-            <div className="card-body bgBlur">
-              <h5 className="card-title fw-bold">Busca El Pokemon</h5>
-              <p className="card-text">
-                En Esta App podrás encontrar el pokemon por nombre o por ID,
-                arrojando varias características como El nombre, peso, tamaño
-                entre otros datos. 
-              </p>
-            </div>
-          </div>
-        </a>
-
-        <a
-          data-aos="fade-up"
-          data-aos-duration="500"
-          target="_blank"
-          className="col text-decoration-none text-reset"
-          href="https://amatrix.netlify.app/"
-        >
-          <div className="card h-100  linkMyProjects">
-            <img
-              src={projectAmatrix}
-              className="card-img-top border"
-              alt="Imagen"
-            />
-            <div className="card-body bgBlur">
-              <h5 className="card-title fw-bold">Amatix</h5>
-              <p className="card-text">
-                Landing Page con Presentación, opción de ingles o español,
-                instrucciones, términos y con formularios validados para iniciar
-                sesión o para registrarse. 
-              </p>
-            </div>
-          </div>
-        </a>
-        <a
-          data-aos="fade-up"
-          data-aos-duration="500"
-          target="_blank"
-          className="col text-decoration-none text-reset"
-          href="https://rink-and-morty-app.netlify.app"
-        >
-          <div className="card h-100  linkMyProjects">
-            <img
-              src={projectRickAndMorty}
-              className="card-img-top border"
-              alt="Imagen"
-            />
-            <div className="card-body bgBlur">
-              <h5 className="card-title fw-bold">Personajes de Rick and Morty</h5>
-              <p className="card-text">
-                Consumiendo Api para mostrar los personajes de la serie Rick and
-                Morty con algunas características de estos. 
-              </p>
-            </div>
-          </div>
-        </a>
-        <a
-          data-aos="fade-up"
-          data-aos-duration="500"
-          target="_blank"
-          className="col text-decoration-none text-reset"
-          href="https://play.google.com/store/apps/details?id=ooo.chimba.chimbaWallet"
-        >
-          <div className="card h-100  linkMyProjects">
-            <img
-              src={proyjectChimba}
-              className="card-img-top border"
-              alt="Imagen"
-            />
-            <div className="card-body bgBlur">
-              <h5 className="card-title fw-bold">Billetera Movil</h5>
-              <p className="card-text">
-              Desarrollo de Billetera para Android y IOS, donde puede implementar funcionalidades nuevas, formularios, validación otp, nuevas vistas y más.
-              </p>
-            </div>
-          </div>
-        </a>
-        
+    <section id="projects" className="projects">
+      <div className="text-center textProjects">
+        <h2 className="titleProjects">Proyectos y experiencia</h2>
+        <p className="subTitleProjects">
+          Todo lo que puedas imaginar, lo puedes programar
+        </p>
       </div>
-    </center>
+      <div className="containerCards">
+        <CardProjects
+          ulrProject="https://chimba.ooo/"
+          title="Chimba BlockChain (6 Meses)"
+          description="Contribuí al desarrollo de Chimba BlockChain, una billetera digital. En este proyecto, antes de su migración a Angular, implementé nuevas funcionalidades, formularios avanzados, validaciones, vistas dinámicas y un diseño responsivo. Aseguré una experiencia de usuario fluida y optimizada durante mi participación en el desarrollo. "
+          icons={[
+            IconHtml,
+            IconCss,
+            IconJs,
+            IconReact,
+            IconRedux,
+            IconSQL,
+            iconGitHub,
+          ]}
+          img={Chimba}
+        />
+
+        <CardProjects
+          ulrProject="https://landing-page-tranding.netlify.app/"
+          title="Landing Page Trading (1 Mes)"
+          description="Participé en el desarrollo de una landing page como freelance, Esta página tiene opción página con opciones en inglés y español. Desarrollé formularios de login y registro, así como secciones de preguntas frecuentes y otros aspectos. La landing page resultante es completa y cumple con los objetivos esperados."
+          icons={[
+            IconHtml,
+            IconCss,
+            IconSass,
+            IconJs,
+            IconVue,
+            IconNodejs,
+            iconGitHub,
+          ]}
+          img={Trading}
+        />
+        <CardProjects
+          ulrProject="https://amatrix.netlify.app/"
+          title="Amatrix (2 Mes)"
+          description="Colaboré en la maquetación de una landing page que incorporaba un video de YouTube y secciones de reseñas. Me encargué de desarrollar la estructura y el diseño siguiendo las indicaciones del cliente. El objetivo fue garantizar una experiencia de usuario fluida y optimizada, cumpliendo con los requisitos de la maquetación."
+          icons={[
+            IconHtml,
+            IconCss,
+            IconJs,
+            IconVue,
+            IconNodejs,
+            IconSass,
+            iconGitHub,
+          ]}
+          img={Amatrix}
+        />
+
+        <CardProjects
+          ulrProject="https://tickets.tablaolascarboneras.com/"
+          title="Página De Reservas (3 Semanas)"
+          description="Participé en el desarrollo de una página web para reservar citas para un cliente en España. Mi trabajo consistió en modificar y mejorar el diseño existente, así como en implementar nuevas funcionalidades y vistas. Aunque el proyecto estaba basado en PHP, me enfoqué principalmente en desarrollar la interfaz de usuario con HTML y CSS, además de contribuir con algunos elementos en PHP."
+          icons={[IconHtml, IconCss, iconGitHub]}
+          img={Carbonera}
+        />
+
+        <CardProjects
+          ulrProject="https://good-weather-forecast-app.netlify.app/"
+          title="Predicción meteorológica (1 Mes)"
+          description="En esta aplicación web, se consume la API del clima para mostrar la información meteorológica de la ciudad ingresada, así como otros datos relevantes, incluidas las previsiones del clima para las próximas 6 horas."
+          icons={[IconHtml, IconCss, IconJs, IconReact, IconBotstrap]}
+          img={ProjectWeather}
+        />
+        <CardProjects
+          ulrProject="https://search-pokemones.netlify.app/"
+          title="Pokédex (2 Semanas)"
+          description="Para esta aplicación, se utilizó un API de Pokémon para buscar información por nombre o ID. Se guardan los datos en una base de datos y se muestran al usuario al buscar un Pokémon."
+          icons={[IconHtml, IconCss, IconJs, IconReact, IconBotstrap, IconSQL]}
+          img={PokeDex}
+        />
+
+        {/* <CardProjects
+          ulrProject=""
+          title=""
+          description=""
+          icons={[
+            
+          ]}
+          img={Amatrix}
+        /> */}
+      </div>
+    </section>
   );
 };
 

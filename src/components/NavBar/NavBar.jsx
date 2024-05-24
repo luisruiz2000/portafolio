@@ -23,17 +23,17 @@ const NavBar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="#">
-              Home
+            <a class="nav-link" aria-current="page" href="#header">
+              Inicio
+            </a>
+            <a class="nav-link" href="#projects">
+              Proyectos
             </a>
             <a class="nav-link" href="#">
-              Features
-            </a>
-            <a class="nav-link" href="#">
-              Pricing
+              Sobre mí
             </a>
             <a class="nav-link" aria-disabled="true">
-              Disabled
+              Contacto
             </a>
           </div>
         </div>
