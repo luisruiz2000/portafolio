@@ -55,4 +55,9 @@
     padding: 0;
     background-position: 0;
   }
+
+  .iconsHeader{
+    margin: 0;
+    justify-content: center;
+  }
 }

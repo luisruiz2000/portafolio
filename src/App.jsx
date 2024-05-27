@@ -13,8 +13,8 @@ function App() {
       <NavBar />
       <Header />
       <MyProjects />
-      <AboutMe />
       <Cetificates />
+      <AboutMe />
     </div>
   );
 }

@@ -1,11 +1,11 @@
 #aboutMe {
-  height: auto;
+  height: 100vh;
   background-color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: #ccc;
-  padding: 5rem 0 0 0 ;
+  padding: 5rem 0 0 0;
 }
 
 .textAbout {
@@ -25,6 +25,7 @@
   background-color: #cccccc3d;
   border-radius: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: .5rem;
 }
@@ -35,4 +36,39 @@
 
 .myAvatar {
   width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .iconsAboutMe {
+    flex-wrap: wrap;
+    justify-content: start;
+
+  }
+}
+
+@media(max-width: 992px) {
+  #aboutMe {
+    flex-direction: column;
+  }
+
+  .myAvatar {
+    display: none;
+  }
+
+  .textAbout {
+    width: 90%;
+  }
+
+  .titleAboutMe {
+    text-align: center;
+  }
+
+  .iconsAboutMe {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconAboutMe {
+    margin-right: 1rem;
+  }
 }

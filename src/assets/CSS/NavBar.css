@@ -2,7 +2,6 @@
   background-color: #00000093;
   backdrop-filter: blur(30px);
   padding: .5rem 2rem;
-  height: 10vh;
 }
 
 .log {
@@ -20,15 +19,8 @@
   color: white;
 }
 
-.iconsNav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 10%;
-}
-
-.iconContact {
-  width: 40px;
+.collapse a:hover {
+  color: #666464;
 }
 
 .bgActive {

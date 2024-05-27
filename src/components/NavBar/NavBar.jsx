@@ -29,8 +29,8 @@ const NavBar = () => {
             <a class="nav-link" href="#aboutMe">
               Sobre mí
             </a>
-            <a class="nav-link" aria-disabled="true">
-              Contacto
+            <a class="nav-link" href="#certificates" aria-disabled="true">
+              Certificados 
             </a>
           </div>
         </div>

@@ -1,25 +1,49 @@
 import React from "react";
-import '../../assets/CSS/Certificates.css'
-import webRespondivo from '../../assets/image/responsiWebCertificate.webp'
-import jsAnsStructuraDatos from '../../assets/image/certificateJs.jpeg'
-const Cetificates = () => {
+import "../../assets/CSS/Certificates.css";
+
+import webResponsivo from "../../assets/image/responsiWebCertificate.jpg";
+import jsAnsStructuraDatos from "../../assets/image/certificateJs.jpg";
+import CertificateComponent from "./CertificateComponent";
+import JsUdemy from "../../assets/image/JavaScriptUdemy.jpg"
+import CertificadoEmprendimiento from "../../assets/image/CertificadoEmprendimiento.jpg"
+
+const Certificates = () => {
   return (
-    <div id="certificates" className="certificates" data-aos="zoom-in">
-      <center className="titleCertificates fs-1">Certificados</center>
-      <section className="allCertificates">
-        <a target="_blank" href="https://www.freecodecamp.org/certification/LuisRuiz/responsive-web-design">
-          <img className='certificatesImg' src={webRespondivo} />
-          <p className="fs-4">Responsive web design</p>
-        </a>
-        <a target="_blank" href="https://www.freecodecamp.org/certification/LuisRuiz/javascript-algorithms-and-data-structures">
-          <img className='certificatesImg' src={jsAnsStructuraDatos} />
-          <p className="fs-4">Javascript algorithms and data structures</p>
-        </a>
-      </section>
-
-      <center className="titleCertificates fs-1">¡Y voy por mas!</center>
+    <div id="certificates" className="container">
+      <h2 className="titleFontFamily text-white">Certificados</h2>
+      <br />
+      <div className="cards">
+        <CertificateComponent
+          className="card"
+          img={jsAnsStructuraDatos}
+          cardTitle="JS algorithms & data structures"
+          cardText="FreeCodeCam"
+          urlBtn="https://www.freecodecamp.org/certification/LuisRuiz/javascript-algorithms-and-data-structures"
+        />
+        <CertificateComponent
+          className="card"
+          img={webResponsivo}
+          cardTitle="Responsive web design"
+          cardText="FreeCondeCam"
+          urlBtn="https://www.freecodecamp.org/certification/LuisRuiz/responsive-web-design"
+        />
+        <CertificateComponent
+          className="card"
+          img={JsUdemy}
+          cardTitle="JavaScript Moderno"
+          cardText="Udemy"
+          urlBtn="https://www.udemy.com/certificate/UC-d1c2f5d4-7b36-4b7c-aae2-b5860f654571/"
+        />
+        <CertificateComponent
+          className="card"
+          img={CertificadoEmprendimiento}
+          cardTitle="Emprendimiento"
+          cardText="SENA"
+          urlBtn="#"
+        />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Cetificates;
+export default Certificates;

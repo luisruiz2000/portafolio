@@ -18,7 +18,7 @@ import iconGit from "../../assets/icon/icon_git.png";
 
 const AboutMe = () => {
   return (
-    <section id="aboutMe" className="container">
+    <section id="aboutMe">
       <div data-aos="flip-left" className="textAbout">
         <h2 className="titleFontFamily titleAboutMe">Sobre Mí</h2>
         <span className="descriptionAboutMe">

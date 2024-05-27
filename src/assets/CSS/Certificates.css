@@ -1,38 +1,33 @@
-.certificates {
-  background-color: black;
-  height: 100vh;
+#certificates {
+  /* height: 100vh; */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  padding: 5rem 0.1rem;
 }
 
-a {
-  text-decoration: none;
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  margin: 1rem;
+  border: 1px solid rgb(109, 109, 109);
   color: aliceblue;
 }
 
-a:hover {
-  color: rgb(133, 133, 133);
+.card-img-top {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  opacity: .9;
 }
 
-.titleCertificates {
-  background-color: black !important;
-  color: aliceblue !important;
-  font-weight: bolder !important;
-  padding: 3rem 0 2rem 0;
-}
-
-.allCertificates {
-  text-align: center;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.certificatesImg {
-  width: 500px;
-  height: 200px;
-  margin: 1rem 2rem;
+.card-title{
+  font-size: 1rem;
+  color: white;
 }
