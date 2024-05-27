@@ -2,3 +2,9 @@ body {
   background-color: #000;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.titleFontFamily {
+  font-family: "Jersey 25 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

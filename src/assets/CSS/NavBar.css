@@ -2,6 +2,7 @@
   background-color: #00000093;
   backdrop-filter: blur(30px);
   padding: .5rem 2rem;
+  height: 10vh;
 }
 
 .log {

@@ -1,0 +1,38 @@
+#aboutMe {
+  height: auto;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ccc;
+  padding: 5rem 0 0 0 ;
+}
+
+.textAbout {
+  width: 55%;
+  z-index: 1;
+}
+
+.titleAboutMe {
+  font-size: 2.5rem;
+}
+
+.descriptionAboutMe {
+  font-size: 1rem;
+}
+
+.iconsAboutMe {
+  background-color: #cccccc3d;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: .5rem;
+}
+
+.iconAboutMe {
+  margin: 0 .5rem 0 0;
+}
+
+.myAvatar {
+  width: 100%;
+}

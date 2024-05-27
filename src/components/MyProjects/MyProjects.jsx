@@ -24,8 +24,8 @@ const MyProjects = () => {
   return (
     <section id="projects" className="projects">
       <div className="text-center textProjects">
-        <h2 className="titleProjects">Proyectos y experiencia</h2>
-        <p className="subTitleProjects">
+        <h2 className="titleFontFamily">Proyectos y experiencia</h2>
+        <p className="subTitleProjects titleFontFamily">
           Todo lo que puedas imaginar, lo puedes programar
         </p>
       </div>

@@ -1,9 +1,6 @@
 import React from "react";
 import "../../assets/CSS/NavBar.css";
 
-import linkedin from "./../../assets/icon/icon_linkedin.png";
-import gitHub from "./../../assets/icon/icon_github.png";
-
 const NavBar = () => {
   return (
     <nav data-aos="fade-down" class="navbar navbar-expand-lg navContent sticky-top">
@@ -29,7 +26,7 @@ const NavBar = () => {
             <a class="nav-link" href="#projects">
               Proyectos
             </a>
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#aboutMe">
               Sobre mí
             </a>
             <a class="nav-link" aria-disabled="true">

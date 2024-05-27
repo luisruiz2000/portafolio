@@ -5,12 +5,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  font-family: "Jersey 25 Charted", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   display: flex;
-  justify-content: start;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #header::before {
@@ -30,15 +27,26 @@
   z-index: 2;
 }
 
+.iconsHeader {
+  margin: 0 0 0 10rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+}
+
+.iconBtn {
+  margin-right: 1rem;
+  background-color: rgba(240, 248, 255, 0.397);
+}
+
 @media (max-width: 769px) {
   #header {
     justify-content: center;
     background-image: url('../image/_bgMovil.jpeg');
-
   }
 
   #header::before {
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.87);
 
   }
 

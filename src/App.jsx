@@ -2,7 +2,7 @@ import AOS from "aos";
 import Header from "./components/Header/Header";
 import MyProjects from "./components/MyProjects/MyProjects";
 import NavBar from "./components/NavBar/NavBar";
-import Technologies from "./components/Technologies/Technologies";
+import AboutMe from "./components/AboutMe/AboutMe";
 import Cetificates from "./components/Certificates/Certicates";
 
 AOS.init();
@@ -13,7 +13,7 @@ function App() {
       <NavBar />
       <Header />
       <MyProjects />
-      <Technologies />
+      <AboutMe />
       <Cetificates />
     </div>
   );
