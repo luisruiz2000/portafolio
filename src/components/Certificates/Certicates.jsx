@@ -4,8 +4,9 @@ import "../../assets/CSS/Certificates.css";
 import webResponsivo from "../../assets/image/responsiWebCertificate.jpg";
 import jsAnsStructuraDatos from "../../assets/image/certificateJs.jpg";
 import CertificateComponent from "./CertificateComponent";
-import JsUdemy from "../../assets/image/JavaScriptUdemy.jpg"
-import CertificadoEmprendimiento from "../../assets/image/CertificadoEmprendimiento.jpg"
+import JsUdemy from "../../assets/image/JavaScriptUdemy.jpg";
+import imgEmprendimiento from "../../assets/image/CertificadoEmprendimiento.jpg";
+import CertificadoEmprendimiento from "../../assets/image/EmprendimientoSena.pdf"
 
 const Certificates = () => {
   return (
@@ -36,10 +37,11 @@ const Certificates = () => {
         />
         <CertificateComponent
           className="card"
-          img={CertificadoEmprendimiento}
+          img={imgEmprendimiento}
           cardTitle="Emprendimiento"
           cardText="SENA"
-          urlBtn="#"
+          urlBtn={CertificadoEmprendimiento}
+          onClick={() => openImage(CertificadoEmprendimiento)}
         />
       </div>
     </div>
