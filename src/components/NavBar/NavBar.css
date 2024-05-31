@@ -1,0 +1,78 @@
+.navContent {
+  backdrop-filter: blur(40px);
+  padding: .5rem 2rem;
+  margin: 0;
+}
+
+.logo {
+  font-family: "Jaro", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  letter-spacing: 8px !important;
+  color: #ccc !important;
+  margin: 0 1rem 0 0 !important;
+}
+
+
+.collapse a {
+  color: #666464;
+  transition: color 0.5s ease-out, transform 0.2s ease-out;
+  cursor: pointer;
+}
+
+
+.collapse a.active {
+  color: #666464 !important;
+  border-bottom: 1px solid #666464;
+  font-weight: bolder;
+}
+
+.bgActive {
+  display: block;
+  background-color: transparent;
+  width: 30px
+}
+
+.bgDisable {
+  display: none;
+}
+
+.bi-linkedin,
+.bi-github {
+  font-size: 1.9rem;
+  margin: 0 1rem;
+  transition: color 0.3s ease-out;
+}
+
+.bi-linkedin:hover {
+  color: #0077b5 !important;
+} 
+
+.bi-github:hover {
+  color: #4078c0 !important;
+}
+
+.iconsNavActivo {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.iconsNavDisable {
+  display: none;
+}
+
+
+
+@media (max-width: 991px) {
+  .iconsNavActivo {
+    display: none;
+  }
+
+  .iconsNavDisable {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
-import "../../assets/CSS/MyProjects.css";
-import CardProjects from "../CardsProjects/CardProjects";
+import "./MyProjects.css";
+import CardProjects from "./CardsProjects/CardProjects";
 
 import Chimba from "../../assets/image/chimba.png";
 import Trading from "../../assets/image/projectTrading.png";
@@ -22,17 +22,17 @@ import iconGitHub from "../../assets/icon/icon_github.png";
 import IconBotstrap from "../../assets/icon/icon_bootstrap.png";
 const MyProjects = () => {
   return (
-    <section id="projects" className="projects">
-      <div className="text-center textProjects">
+    <section id="projects" className="projects bgAllComponent">
+      <div  className="text-center textProjects">
         <h2 className="titleFontFamily">Proyectos y experiencia</h2>
-        <p className="subTitleProjects titleFontFamily">
-          Todo lo que puedas imaginar, lo puedes programar
+        <p className="subTitleProjects text-white fs-4">
+         ( Todo lo que puedas imaginar, lo puedes programar)
         </p>
       </div>
       <div className="containerCards">
         <CardProjects
           ulrProject="https://chimba.ooo/"
-          title="Chimba BlockChain (6 Meses)"
+          title="Chimba BlockChain (8 Meses)"
           description="Contribuí al desarrollo de Chimba BlockChain, una billetera digital. En este proyecto, antes de su migración a Angular, implementé nuevas funcionalidades, formularios avanzados, validaciones, vistas dinámicas y un diseño responsivo. Aseguré una experiencia de usuario fluida y optimizada durante mi participación en el desarrollo. "
           icons={[
             IconHtml,
@@ -47,8 +47,9 @@ const MyProjects = () => {
         />
 
         <CardProjects
+          data-aos="fade-right"
           ulrProject="https://landing-page-tranding.netlify.app/"
-          title="Landing Page Trading (1 Mes)"
+          title="Landing Page Trading (4 Mes)"
           description="Participé en el desarrollo de una landing page como freelance, Esta página tiene opción página con opciones en inglés y español. Desarrollé formularios de login y registro, así como secciones de preguntas frecuentes y otros aspectos. La landing page resultante es completa y cumple con los objetivos esperados."
           icons={[
             IconHtml,
@@ -63,7 +64,7 @@ const MyProjects = () => {
         />
         <CardProjects
           ulrProject="https://amatrix.netlify.app/"
-          title="Amatrix (2 Mes)"
+          title="Amatrix (3 Mes)"
           description="Colaboré en la maquetación de una landing page que incorporaba un video de YouTube y secciones de reseñas. Me encargué de desarrollar la estructura y el diseño siguiendo las indicaciones del cliente. El objetivo fue garantizar una experiencia de usuario fluida y optimizada, cumpliendo con los requisitos de la maquetación."
           icons={[
             IconHtml,
@@ -79,7 +80,7 @@ const MyProjects = () => {
 
         <CardProjects
           ulrProject="https://tickets.tablaolascarboneras.com/"
-          title="Página De Reservas (3 Semanas)"
+          title="Página De Reservas (6 Meses)"
           description="Participé en el desarrollo de una página web para reservar citas para un cliente en España. Mi trabajo consistió en modificar y mejorar el diseño existente, así como en implementar nuevas funcionalidades y vistas. Aunque el proyecto estaba basado en PHP, me enfoqué principalmente en desarrollar la interfaz de usuario con HTML y CSS, además de contribuir con algunos elementos en PHP."
           icons={[IconHtml, IconCss, iconGitHub]}
           img={Carbonera}
@@ -87,28 +88,18 @@ const MyProjects = () => {
 
         <CardProjects
           ulrProject="https://good-weather-forecast-app.netlify.app/"
-          title="Predicción meteorológica (1 Mes)"
+          title="Predicción meteorológica (2 Mes)"
           description="En esta aplicación web, se consume la API del clima para mostrar la información meteorológica de la ciudad ingresada, así como otros datos relevantes, incluidas las previsiones del clima para las próximas 6 horas."
           icons={[IconHtml, IconCss, IconJs, IconReact, IconBotstrap]}
           img={ProjectWeather}
         />
         <CardProjects
           ulrProject="https://search-pokemones.netlify.app/"
-          title="Pokédex (2 Semanas)"
+          title="Pokédex (1 Mes)"
           description="Para esta aplicación, se utilizó un API de Pokémon para buscar información por nombre o ID. Se guardan los datos en una base de datos y se muestran al usuario al buscar un Pokémon."
           icons={[IconHtml, IconCss, IconJs, IconReact, IconBotstrap, IconSQL]}
           img={PokeDex}
         />
-
-        {/* <CardProjects
-          ulrProject=""
-          title=""
-          description=""
-          icons={[
-            
-          ]}
-          img={Amatrix}
-        /> */}
       </div>
     </section>
   );

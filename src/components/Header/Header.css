@@ -1,7 +1,7 @@
 #header {
   position: relative;
   height: 100vh;
-  background-image: url('../image/bgHeaderr.jpg');
+  background-image: url('../../assets/image/bgHeaderr.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -14,35 +14,24 @@
   content: '';
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 
 .titleHeader {
-  color: rgb(240, 248, 255);
+  font-size: 3rem !important;
+  color: #ccc;
   padding: 0 0 0 10rem;
   font-size: 3rem;
   position: relative;
   z-index: 2;
 }
 
-.iconsHeader {
-  margin: 0 0 0 10rem;
-  z-index: 2;
-  display: flex;
-  flex-direction: row;
-}
-
-.iconBtn {
-  margin-right: 1rem;
-  background-color: rgba(240, 248, 255, 0.397);
-}
-
 @media (max-width: 769px) {
   #header {
     justify-content: center;
-    background-image: url('../image/_bgMovil.jpeg');
+    background-image: url("../../assets/image/_bgMovil.jpeg") !important;
   }
 
   #header::before {
@@ -54,10 +43,5 @@
     text-align: center;
     padding: 0;
     background-position: 0;
-  }
-
-  .iconsHeader{
-    margin: 0;
-    justify-content: center;
   }
 }

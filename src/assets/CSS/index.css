@@ -1,17 +1,23 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #000;
+  background: radial-gradient(125% 149% at 50% 10%, #000 33%, #63e 100%);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-  text-decoration: none;
-  color: aliceblue;
+  text-decoration: none !important;
+  color: aliceblue !important;
 }
 
 .titleFontFamily {
+  font-size: 2rem;
   font-family: "Jersey 25 Charted", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: rgba(240, 248, 255, 0.897);
+}
+
+.bgAllComponent {
+  background: radial-gradient(125% 149% at 50% 10%, #000 30%, #63e 100%);
 }

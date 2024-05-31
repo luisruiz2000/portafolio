@@ -10,7 +10,7 @@ import CertificadoEmprendimiento from "../../assets/image/EmprendimientoSena.pdf
 
 const Certificates = () => {
   return (
-    <div id="certificates" className="container">
+    <div id="certificates" className="bgAllComponent">
       <h2 className="titleFontFamily text-white">Certificados</h2>
       <br />
       <div className="cards">

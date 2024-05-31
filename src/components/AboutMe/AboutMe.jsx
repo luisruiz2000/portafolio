@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/CSS/AboutMe.css";
+import "./AboutMe.css";
 
 import myAvatar from "../../assets/image/myAvatar.svg";
 
@@ -18,7 +18,7 @@ import iconGit from "../../assets/icon/icon_git.png";
 
 const AboutMe = () => {
   return (
-    <section id="aboutMe">
+    <section id="aboutMe" className="bgAllComponent">
       <div data-aos="flip-left" className="textAbout">
         <h2 className="titleFontFamily titleAboutMe">Sobre Mí</h2>
         <span className="descriptionAboutMe">

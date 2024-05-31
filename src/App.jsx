@@ -9,13 +9,13 @@ AOS.init();
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Header />
-      <MyProjects />
-      <Cetificates />
-      <AboutMe />
-    </div>
+      <div className="App">
+        <NavBar />
+        <Header />
+        <MyProjects />
+        <Cetificates />
+        <AboutMe />
+      </div>
   );
 }
 
