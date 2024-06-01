@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/CSS/Certificates.css";
+import "./Certificates.css";
 
 import webResponsivo from "../../assets/image/responsiWebCertificate.jpg";
 import jsAnsStructuraDatos from "../../assets/image/certificateJs.jpg";
