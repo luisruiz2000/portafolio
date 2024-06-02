@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import { Link } from "react-scroll";
+import IconCopy from "./IconoCopy/IconCopy";
 
 const NavBar = () => {
   return (
@@ -72,14 +73,18 @@ const NavBar = () => {
         </div>
 
         <div className="iconsNavActivo">
+          <IconCopy
+            classIcon="bi bi-envelope-fill iconNav"
+            valueCopy="luisruiz462000@gmail.com"
+          />
           <a
             target="_blank"
             href="https://github.com/luisruiz2000"
-            className="bi bi-github text-white"></a>
+            className="bi bi-github iconNav"></a>
           <a
             target="_blank"
             href="https://www.linkedin.com/in/luis-fernando-rengifo-ruiz-9b5290245/"
-            className="bi bi-linkedin text-white"></a>
+            className="bi bi-linkedin iconNav"></a>
         </div>
       </nav>
     </div>

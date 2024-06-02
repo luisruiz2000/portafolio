@@ -28,6 +28,12 @@
   font-weight: bolder;
 }
 
+.collapse a:hover {
+  color: #666464 !important;
+  border-bottom: 1px solid #666464!important;
+  font-weight: bolder!important;
+}
+
 .bgActive {
   display: block;
   background-color: transparent;
@@ -38,8 +44,7 @@
   display: none;
 }
 
-.bi-linkedin,
-.bi-github {
+.iconNav {
   font-size: 1.9rem;
   margin: 0 1rem;
   transition: color 0.3s ease-out;
@@ -63,6 +68,19 @@
   display: none;
 }
 
+.copy-message {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute !important;
+  background-color: #222 !important;
+  color: #fff !important;
+  padding: 5px 10px !important;
+  border-radius: 4px !important;
+  font-size: .9rem !important;
+  white-space: nowrap !important;
+  z-index: 1 !important;
+}
 
 
 @media (max-width: 991px) {
