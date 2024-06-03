@@ -20,15 +20,12 @@ const IconCopy = ({ classIcon, valueCopy }) => {
   };
 
   const handleMouseLeave = () => {
-    textCopy ? setHoverIcon(true) : setHoverIcon(false) 
+    textCopy ? setHoverIcon(true) : setHoverIcon(false);
   };
 
   if (redirect) {
-    window.open(
-      "https://mail.google.com/mail/u/0/#inbox?compose=new",
-      "_blank"
-    );
-    window.location.reload();
+    window.location.href =
+      "https://mail.google.com/mail/u/0/#inbox?compose=new";
   }
 
   return (

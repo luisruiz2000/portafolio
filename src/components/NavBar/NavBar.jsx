@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div className="sticky-top">
       <nav className="navbar navbar-expand-lg p-0 navContent px-5">
-        <div  className="container-fluid">
+        <div className="container-fluid">
           <a className="navbar-brand logo fs-1" href="#">
             LF
           </a>
@@ -65,8 +65,16 @@ const NavBar = () => {
                 Sobre mí
               </Link>
               <div className="iconsNavMovil">
-                <i class="bi bi-linkedin text-white iconNav"></i>
-                <i class="bi bi-github text-white iconNav"></i>
+                <a
+                  title="GitHub"
+                  target="_blank"
+                  href="https://github.com/luisruiz2000"
+                  className="bi bi-github iconNav"></a>
+                <a
+                  title="Linkedin"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/luis-fernando-rengifo-ruiz-9b5290245/"
+                  className="bi bi-linkedin iconNav"></a>
                 <IconCopy
                   classIcon="bi bi-envelope-fill iconNav"
                   valueCopy="luisruiz462000@gmail.com"
