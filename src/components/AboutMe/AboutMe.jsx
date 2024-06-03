@@ -41,7 +41,7 @@ const AboutMe = () => {
             Soy proactivo, con una fuerte ética de trabajo y un gran interés por
             aprender continuamente. Además, tengo varios certificados y
             actualmente estoy estudiando una técnica en programación de software
-            en el Sena. Si buscas un desarrollador full stack comprometido, con
+            en el SENA. Si buscas un desarrollador full stack comprometido, con
             habilidades en React y una amplia gama de tecnologías, ¡estoy listo
             para contribuir a tu próximo proyecto!
           </p>

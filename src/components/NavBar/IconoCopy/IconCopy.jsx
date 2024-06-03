@@ -20,7 +20,7 @@ const IconCopy = ({ classIcon, valueCopy }) => {
   };
 
   const handleMouseLeave = () => {
-    setHoverIcon(false);
+    textCopy ? setHoverIcon(true) : setHoverIcon(false) 
   };
 
   if (redirect) {
@@ -28,28 +28,26 @@ const IconCopy = ({ classIcon, valueCopy }) => {
       "https://mail.google.com/mail/u/0/#inbox?compose=new",
       "_blank"
     );
-    window.location.reload()
+    window.location.reload();
   }
 
   return (
-    <div>
-      <a
-        onClick={handleCopy}
-        className={classIcon}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}>
-        {/* {textCopy ? <SyncLoader className="loadding" color="#222" /> : ""} */}
-        {hoverIcon && (
-          <div
-            className={
-              textCopy ? "copy-message bg-success me-5" : "copy-message"
-            }>
-            {textCopy ? "Correo Copiado" : hoverIcon ? "Enviar Correo" : ""}
-            {textCopy ? <PulseLoader color="white" size={8} /> : ""}
-          </div>
-        )}
-      </a>
-    </div>
+    <a
+      onClick={handleCopy}
+      className={classIcon}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}>
+      {/* {textCopy ? <SyncLoader className="loadding" color="#222" /> : ""} */}
+      {hoverIcon && (
+        <div
+          className={
+            textCopy ? "copy-message bg-success me-5" : "copy-message"
+          }>
+          {textCopy ? "Correo Copiado" : hoverIcon ? "Enviar Correo" : ""}
+          {textCopy ? <PulseLoader color="white" size={8} /> : ""}
+        </div>
+      )}
+    </a>
   );
 };
 

@@ -23,10 +23,10 @@ import IconBotstrap from "../../assets/icon/icon_bootstrap.png";
 const MyProjects = () => {
   return (
     <section id="projects" className="projects bgAllComponent">
-      <div  className="text-center textProjects">
+      <div className="text-center textProjects">
         <h2 className="titleFontFamily">Proyectos y experiencia</h2>
-        <p className="subTitleProjects text-white fs-4">
-         ( Todo lo que puedas imaginar, lo puedes programar)
+        <p className="subTitleProjects text-white fs-5">
+          ( Todo lo que puedas imaginar, lo puedes programar)
         </p>
       </div>
       <div className="containerCards">
@@ -49,8 +49,8 @@ const MyProjects = () => {
         <CardProjects
           data-aos="fade-right"
           urlProjects="https://landing-page-tranding.netlify.app/"
-          title="Landing Page Trading (4 Mes)"
-          description="Participé en el desarrollo de una landing page como freelance, Esta página tiene opción página con opciones en inglés y español. Desarrollé formularios de login y registro, así como secciones de preguntas frecuentes y otros aspectos. La landing page resultante es completa y cumple con los objetivos esperados."
+          title="Landing Page Trading (4 Meses)"
+          description="Participé en el desarrollo de una landing page como freelance. Esta página tiene opciones en inglés y español. Desarrollé formularios de login y registro, así como secciones de preguntas frecuentes y otros aspectos. La landing page resultante es completa y cumple con los objetivos esperados."
           icons={[
             IconHtml,
             IconCss,
@@ -64,7 +64,7 @@ const MyProjects = () => {
         />
         <CardProjects
           urlProjects="https://amatrix.netlify.app/"
-          title="Amatrix (3 Mes)"
+          title="Amatrix (3 Meses)"
           description="Colaboré en la maquetación de una landing page que incorporaba un video de YouTube y secciones de reseñas. Me encargué de desarrollar la estructura y el diseño siguiendo las indicaciones del cliente. El objetivo fue garantizar una experiencia de usuario fluida y optimizada, cumpliendo con los requisitos de la maquetación."
           icons={[
             IconHtml,
@@ -88,15 +88,15 @@ const MyProjects = () => {
 
         <CardProjects
           urlProjects="https://good-weather-forecast-app.netlify.app/"
-          title="Predicción meteorológica (2 Mes)"
+          title="Predicción meteorológica (2 Meses)"
           description="En esta aplicación web, se consume la API del clima para mostrar la información meteorológica de la ciudad ingresada, así como otros datos relevantes, incluidas las previsiones del clima para las próximas 6 horas."
           icons={[IconHtml, IconCss, IconJs, IconReact, IconBotstrap]}
           img={ProjectWeather}
         />
         <CardProjects
           urlProjects="https://search-pokemones.netlify.app/"
-          title="Pokédex (1 Mes)"
-          description="Para esta aplicación, se utilizó un API de Pokémon para buscar información por nombre o ID. Se guardan los datos en una base de datos y se muestran al usuario al buscar un Pokémon."
+          title="Pokédex (1 Meses)"
+          description="Para esta aplicación, se utilizó una API de Pokémon para buscar información por nombre o ID. Se guardan los datos en una base de datos y se muestran al usuario al buscar un Pokémon."
           icons={[IconHtml, IconCss, IconJs, IconReact, IconBotstrap, IconSQL]}
           img={PokeDex}
         />

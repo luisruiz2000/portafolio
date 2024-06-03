@@ -3,7 +3,6 @@ import "./cardsProjects.css";
 const CardProjects = ({ title, description, icons, img, urlProjects }) => {
   return (
     <article data-aos="fade-up-right" className="container cardProjects">
-      <img src={img} className="imgProject img-fluid" />
       <div className="contentInfoCard">
         <strong className="title">{title}</strong>
         <p className="description">{description}</p>
@@ -16,6 +15,7 @@ const CardProjects = ({ title, description, icons, img, urlProjects }) => {
           IR AL PROYECTO <i class="bi bi-eye ms-2"></i> 
         </a>
       </div>
+      <img src={img} className="imgProject img-fluid" />
     </article>
   );
 };

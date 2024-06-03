@@ -16,7 +16,7 @@
 .card{
   margin: 1rem;
   border: 1px solid rgb(109, 109, 109);
-  color: aliceblue;
+  color: aliceblue !important;
 }
 
 .card-img-top {

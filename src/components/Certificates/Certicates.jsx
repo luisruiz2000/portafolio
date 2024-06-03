@@ -17,15 +17,15 @@ const Certificates = () => {
         <CertificateComponent
           className="card"
           img={jsAnsStructuraDatos}
-          cardTitle="JS algorithms & data structures"
-          cardText="FreeCodeCam"
+          cardTitle="JS Algorithms & Data Structures"
+          cardText="FreeCodeCamp"
           urlBtn="https://www.freecodecamp.org/certification/LuisRuiz/javascript-algorithms-and-data-structures"
         />
         <CertificateComponent
           className="card"
           img={webResponsivo}
-          cardTitle="Responsive web design"
-          cardText="FreeCondeCam"
+          cardTitle="Responsive Web Design"
+          cardText="FreeCodeCamp"
           urlBtn="https://www.freecodecamp.org/certification/LuisRuiz/responsive-web-design"
         />
         <CertificateComponent

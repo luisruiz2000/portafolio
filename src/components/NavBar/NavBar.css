@@ -37,7 +37,7 @@
 .bgActive {
   display: block;
   background-color: transparent;
-  width: 30px
+  width: 20%;
 }
 
 .bgDisable {
@@ -46,7 +46,7 @@
 
 .iconNav {
   font-size: 1.9rem;
-  margin: 0 1rem;
+  margin: 0 1rem 0 0;
   transition: color 0.3s ease-out;
 }
 
@@ -64,7 +64,7 @@
 }
 
 
-.iconsNavDisable {
+.iconsNavMovil {
   display: none;
 }
 
@@ -82,14 +82,28 @@
   z-index: 1 !important;
 }
 
-
 @media (max-width: 991px) {
+  .navContent {
+    background: radial-gradient(125% 149% at 50% 10%, #000 30%, #63e 100%);
+  }
+
+  .iconsNavActivo {
+    display: none; 
+  }
+
+  .iconsNavMovil{
+    display: inline;
+    display: flex;
+    justify-content: start !important;
+  }
+}
+
+@media (max-width: 770px) {
   .iconsNavActivo {
     display: none;
   }
 
-  .iconsNavDisable {
-    display: flex;
+  .iconsNavMovil {
     display: flex;
     justify-content: space-between;
   }
