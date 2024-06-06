@@ -41,18 +41,6 @@
   margin: 0 .5rem;
 }
 
-.btnProjects {
-  margin-top: 1.2rem;
-  background-color: transparent !important;
-  font-weight: 400;
-  transition: font-weight .3s ease-out, background-color .4s ease-out !important;
-}
-
-.btnProjects:hover {
-  background-color: white !important;
-  color: #000 !important;
-}
-
 .imgProject {
   border-radius: 0 1rem 1rem 0;
   width: 35%;

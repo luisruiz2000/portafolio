@@ -1,0 +1,11 @@
+.btnProjects {
+    margin-top: 1.2rem;
+    background-color: transparent !important;
+    font-weight: 400;
+    transition: font-weight .3s ease-out, background-color .4s ease-out !important;
+  }
+  
+  .btnProjects:hover {
+    background-color: white !important;
+    color: #000 !important;
+  }

@@ -4,15 +4,15 @@ import { PulseLoader } from "react-spinners";
 const IconCopy = ({ classIcon, valueCopy }) => {
   const [textCopy, setTextCopy] = useState(false);
   const [hoverIcon, setHoverIcon] = useState(false);
-  const [redirect, setRedirect] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(valueCopy);
+    setHoverIcon(true)
     setTextCopy(true);
     setTimeout(() => {
-      setRedirect(true);
       setTextCopy(false);
-    }, 2000);
+      window.open("https://mail.google.com/mail/u/0/#inbox?compose=new");
+    }, 2500);
   };
 
   const handleMouseEnter = () => {
@@ -22,19 +22,13 @@ const IconCopy = ({ classIcon, valueCopy }) => {
   const handleMouseLeave = () => {
     textCopy ? setHoverIcon(true) : setHoverIcon(false);
   };
-
-  if (redirect) {
-    window.location.href =
-      "https://mail.google.com/mail/u/0/#inbox?compose=new";
-  }
-
   return (
     <a
+      target="_blank"
       onClick={handleCopy}
       className={classIcon}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}>
-      {/* {textCopy ? <SyncLoader className="loadding" color="#222" /> : ""} */}
       {hoverIcon && (
         <div
           className={

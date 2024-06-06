@@ -23,25 +23,27 @@ const AboutMe = () => {
         <h2 className="titleFontFamily titleAboutMe">Sobre Mí</h2>
         <span className="descriptionAboutMe">
           <p>
-            Soy Luis Fernando, un desarrollador full stack con experiencia en la
-            creación de software de calidad. Comencé mi camino en la
-            programación de forma autodidacta, dominando tecnologías como HTML,
-            CSS y JavaScript moderno. Me especialicé en frameworks como React,
-            lo que me ha permitido desarrollar aplicaciones web robustas y
-            escalables.
+            Soy un desarrollador full stack con experiencia en la creación de
+            software de calidad. Comencé mi camino en la programación de forma
+            autodidacta, dominando tecnologías como HTML, CSS y JavaScript
+            moderno. Me especialicé en frameworks como React, lo que me ha
+            permitido desarrollar aplicaciones web robustas y escalables.
           </p>
           <p>
-            {" "}
             Recientemente, trabajé en Santos Blockchain como parte del equipo de
             front-end, contribuyendo al desarrollo de una billetera digital.
             Aplicando mis habilidades en React, SQL y otras tecnologías, ayudé
             al éxito del proyecto.
           </p>
           <p>
-            Soy proactivo, con una fuerte ética de trabajo y un gran interés por
+            Soy proactivo, tengo una fuerte ética de trabajo y un gran interés por
             aprender continuamente. Además, tengo varios certificados y
-            actualmente estoy estudiando una técnica en programación de software
-            en el SENA. Si buscas un desarrollador full stack comprometido, con
+            actualmente{" "}
+            <b>
+              Soy estudiante del SENA en una carrera para ser Técnico en
+              programación de software
+            </b>
+            . Si buscas un desarrollador full stack comprometido, con
             habilidades en React y una amplia gama de tecnologías, ¡estoy listo
             para contribuir a tu próximo proyecto!
           </p>
