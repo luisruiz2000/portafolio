@@ -32,7 +32,7 @@ const MyProjects = () => {
       <div className="containerCards">
         <CardProjects
           urlProjects="https://chimba.ooo/"
-          title="Chimba BlockChain"
+          title="Chimba Blockchain"
           tiempo="(8 Meses)"
           // description="Contribuí al desarrollo de Chimba BlockChain, una billetera digital. En este proyecto, antes de su migración a Angular, implementé nuevas funcionalidades, formularios avanzados, validaciones, vistas dinámicas y un diseño responsivo. Aseguré una experiencia de usuario fluida y optimizada durante mi participación en el desarrollo. "
           icons={[
@@ -83,7 +83,7 @@ const MyProjects = () => {
 
         <CardProjects
           urlProjects="https://tickets.tablaolascarboneras.com/"
-          title="Página De Reservas"
+          title="Página de Reservas"
           tiempo="(6 Meses)"
           // description="Participé en el desarrollo de una página web para reservar citas para un cliente en España. Mi trabajo consistió en modificar y mejorar el diseño existente, así como en implementar nuevas funcionalidades y vistas. Aunque el proyecto estaba basado en PHP, me enfoqué principalmente en desarrollar la interfaz de usuario con HTML y CSS, además de contribuir con algunos elementos en PHP."
           icons={[IconHtml, IconCss, iconGitHub]}
@@ -92,7 +92,7 @@ const MyProjects = () => {
 
         <CardProjects
           urlProjects="https://good-weather-forecast-app.netlify.app/"
-          title="Predicción meteorológica"
+          title="Predicción Meteorológica"
           tiempo="(2 Meses)"
           // description="En esta aplicación web, se consume la API del clima para mostrar la información meteorológica de la ciudad ingresada, así como otros datos relevantes, incluidas las previsiones del clima para las próximas 6 horas."
           icons={[IconHtml, IconCss, IconJs, IconReact, IconBotstrap]}

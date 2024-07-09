@@ -35,7 +35,7 @@ const Certificates = () => {
         <CertificateComponent
           className="card"
           img={GitGitHub}
-          cardTitle="Profecional en Git y Github"
+          cardTitle="Profesional en Git y Github"
           cardText="Platzi"
           urlBtn={CertificadoGitGitHub}
           onClick={() => openImage(CertificadoGitGitHub)}
@@ -43,7 +43,7 @@ const Certificates = () => {
         <CertificateComponent
           className="card"
           img={Terminal}
-          cardTitle="Terminal Y Lineas De Comando"
+          cardTitle="Terminal Y Líneas De Comando"
           cardText="Platzi"
           urlBtn={CertificadoTerminal}
           onClick={() => openImage(CertificadoTerminal)}

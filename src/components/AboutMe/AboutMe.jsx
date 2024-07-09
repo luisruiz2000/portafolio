@@ -27,7 +27,7 @@ const AboutMe = () => {
         <h2 className="titleFontFamily titleAboutMe">Sobre Mí</h2>
         <article className="descriptionAboutMe my-5">
           Soy un{" "}
-          <span className="colorTitle fw-bold">desarrollador full stack</span>
+          <span className="colorTitle fw-bold">desarrollador full stack </span>
           con experiencia en tecnologías como HTML, CSS, JavaScript y React.
           Recientemente trabajé en Santos Blockchain, contribuyendo al
           desarrollo de una billetera digital con habilidades en React y SQL.
@@ -40,7 +40,7 @@ const AboutMe = () => {
         </article>
 
         <h2 className="titleFontFamily titleAboutMe">Skills</h2>
-        <div className="iconsAboutMe">
+        <div className="iconsAboutMe my-4">
           <img className="iconAboutMe" src={IconHtml} width={50} />
           <img className="iconAboutMe" src={IconCss} width={50} />
           <img className="iconAboutMe" src={IconJs} width={50} />
