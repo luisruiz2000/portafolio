@@ -10,7 +10,6 @@
   font-weight: 400 !important;
   font-style: normal !important;
   letter-spacing: 8px !important;
-  color: #ccc !important;
   margin: 0 1rem 0 0 !important;
 }
 
@@ -23,15 +22,15 @@
 
 
 .collapse a.active {
-  color: #666464 !important;
-  border-bottom: 1px solid #666464;
+  color: #6610f2 !important;
+  border-bottom: 1px solid #6610f2;
   font-weight: bolder;
 }
 
 .collapse a:hover {
-  color: #666464 !important;
-  border-bottom: 1px solid #666464!important;
-  font-weight: bolder!important;
+  color: #6610f2 !important;
+  /* border-bottom: 1px solid #6610f2 !important; */
+  font-weight: bolder !important;
 }
 
 .bgActive {
@@ -50,12 +49,12 @@
   transition: color 0.3s ease-out;
 }
 
-.bi-linkedin:hover {
-  color: #0077b5 !important;
-} 
+.iconNav:hover {
+  color: #6610f2 !important;
+}
 
-.bi-github:hover {
-  color: #4078c0 !important;
+.bi-envelope-fill:hover {
+  cursor: pointer;
 }
 
 .iconsNavActivo {
@@ -88,10 +87,10 @@
   }
 
   .iconsNavActivo {
-    display: none; 
+    display: none;
   }
 
-  .iconsNavMovil{
+  .iconsNavMovil {
     display: inline;
     display: flex;
     justify-content: start !important;

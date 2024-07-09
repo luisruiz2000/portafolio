@@ -22,18 +22,19 @@ import iconGitHub from "../../assets/icon/icon_github.png";
 import IconBotstrap from "../../assets/icon/icon_bootstrap.png";
 const MyProjects = () => {
   return (
-    <section id="projects" className="projects bgAllComponent">
-      <div className="text-center textProjects">
+    <section id="projects" className="projects bgAllComponent pb-5">
+      <div className="text-center textProjects m-3">
         <h2 className="titleFontFamily">Proyectos y experiencia</h2>
-        <p className="subTitleProjects text-white fs-5">
+        <p className="colorTitle fs-5">
           ( Todo lo que puedas imaginar, lo puedes programar)
         </p>
       </div>
       <div className="containerCards">
         <CardProjects
           urlProjects="https://chimba.ooo/"
-          title="Chimba BlockChain (8 Meses)"
-          description="Contribuí al desarrollo de Chimba BlockChain, una billetera digital. En este proyecto, antes de su migración a Angular, implementé nuevas funcionalidades, formularios avanzados, validaciones, vistas dinámicas y un diseño responsivo. Aseguré una experiencia de usuario fluida y optimizada durante mi participación en el desarrollo. "
+          title="Chimba BlockChain"
+          tiempo="(8 Meses)"
+          // description="Contribuí al desarrollo de Chimba BlockChain, una billetera digital. En este proyecto, antes de su migración a Angular, implementé nuevas funcionalidades, formularios avanzados, validaciones, vistas dinámicas y un diseño responsivo. Aseguré una experiencia de usuario fluida y optimizada durante mi participación en el desarrollo. "
           icons={[
             IconHtml,
             IconCss,
@@ -49,8 +50,9 @@ const MyProjects = () => {
         <CardProjects
           data-aos="fade-right"
           urlProjects="https://landing-page-tranding.netlify.app/"
-          title="Landing Page Trading (4 Meses)"
-          description="Participé en el desarrollo de una landing page como freelance. Esta página tiene opciones en inglés y español. Desarrollé formularios de login y registro, así como secciones de preguntas frecuentes y otros aspectos. La landing page resultante es completa y cumple con los objetivos esperados."
+          title="Landing Page Trading"
+          tiempo="(4 Meses)"
+          // description="Participé en el desarrollo de una landing page como freelance. Esta página tiene opciones en inglés y español. Desarrollé formularios de login y registro, así como secciones de preguntas frecuentes y otros aspectos. La landing page resultante es completa y cumple con los objetivos esperados."
           icons={[
             IconHtml,
             IconCss,
@@ -64,8 +66,9 @@ const MyProjects = () => {
         />
         <CardProjects
           urlProjects="https://amatrix.netlify.app/"
-          title="Amatrix (3 Meses)"
-          description="Colaboré en la maquetación de una landing page que incorporaba un video de YouTube y secciones de reseñas. Me encargué de desarrollar la estructura y el diseño siguiendo las indicaciones del cliente. El objetivo fue garantizar una experiencia de usuario fluida y optimizada, cumpliendo con los requisitos de la maquetación."
+          title="Amatrix"
+          tiempo="(3 Meses)"
+          // description="Colaboré en la maquetación de una landing page que incorporaba un video de YouTube y secciones de reseñas. Me encargué de desarrollar la estructura y el diseño siguiendo las indicaciones del cliente. El objetivo fue garantizar una experiencia de usuario fluida y optimizada, cumpliendo con los requisitos de la maquetación."
           icons={[
             IconHtml,
             IconCss,
@@ -80,23 +83,26 @@ const MyProjects = () => {
 
         <CardProjects
           urlProjects="https://tickets.tablaolascarboneras.com/"
-          title="Página De Reservas (6 Meses)"
-          description="Participé en el desarrollo de una página web para reservar citas para un cliente en España. Mi trabajo consistió en modificar y mejorar el diseño existente, así como en implementar nuevas funcionalidades y vistas. Aunque el proyecto estaba basado en PHP, me enfoqué principalmente en desarrollar la interfaz de usuario con HTML y CSS, además de contribuir con algunos elementos en PHP."
+          title="Página De Reservas"
+          tiempo="(6 Meses)"
+          // description="Participé en el desarrollo de una página web para reservar citas para un cliente en España. Mi trabajo consistió en modificar y mejorar el diseño existente, así como en implementar nuevas funcionalidades y vistas. Aunque el proyecto estaba basado en PHP, me enfoqué principalmente en desarrollar la interfaz de usuario con HTML y CSS, además de contribuir con algunos elementos en PHP."
           icons={[IconHtml, IconCss, iconGitHub]}
           img={Carbonera}
         />
 
         <CardProjects
           urlProjects="https://good-weather-forecast-app.netlify.app/"
-          title="Predicción meteorológica (2 Meses)"
-          description="En esta aplicación web, se consume la API del clima para mostrar la información meteorológica de la ciudad ingresada, así como otros datos relevantes, incluidas las previsiones del clima para las próximas 6 horas."
+          title="Predicción meteorológica"
+          tiempo="(2 Meses)"
+          // description="En esta aplicación web, se consume la API del clima para mostrar la información meteorológica de la ciudad ingresada, así como otros datos relevantes, incluidas las previsiones del clima para las próximas 6 horas."
           icons={[IconHtml, IconCss, IconJs, IconReact, IconBotstrap]}
           img={ProjectWeather}
         />
         <CardProjects
           urlProjects="https://search-pokemones.netlify.app/"
-          title="Pokédex (1 Meses)"
-          description="Para esta aplicación, se utilizó una API de Pokémon para buscar información por nombre o ID. Se guardan los datos en una base de datos y se muestran al usuario al buscar un Pokémon."
+          title="Pokédex"
+          tiempo="(1 Meses)"
+          // description="Para esta aplicación, se utilizó una API de Pokémon para buscar información por nombre o ID. Se guardan los datos en una base de datos y se muestran al usuario al buscar un Pokémon."
           icons={[IconHtml, IconCss, IconJs, IconReact, IconBotstrap, IconSQL]}
           img={PokeDex}
         />

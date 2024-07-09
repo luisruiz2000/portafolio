@@ -5,10 +5,13 @@ const Header = () => {
   return (
     <header id="header">
       <h2 data-aos="fade-up" className="titleHeader titleFontFamily">
-        <p className="m-0"> Bienvenido a mi portafolio</p>
-        <p className="m-0">Soy Luis Fernando</p>
-        <p className="m-0">Desarrollador Full Stack</p>
-        <p className="m-0">+ De 2 años de experiencia</p>
+        <span className="m-0">
+          Soy <span className="colorTitle">Luis Fernando</span>,
+        </span>
+        <br />
+        <span className="m-0" colorTitle>Desarrollador Full Stack</span>
+        <br />
+        <span className="m-0"> <span className="colorTitle">+2 años</span> de experiencia</span>
       </h2>
     </header>
   );

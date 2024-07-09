@@ -8,7 +8,7 @@ const NavBar = () => {
     <div className="sticky-top">
       <nav className="navbar navbar-expand-lg p-0 navContent px-5">
         <div className="container-fluid">
-          <a className="navbar-brand logo fs-1" href="#">
+          <a className="navbar-brand logo fs-1 colorTitle" href="#">
             LF
           </a>
           <button

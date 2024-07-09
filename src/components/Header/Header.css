@@ -15,23 +15,23 @@
   position: absolute;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
 .titleHeader {
   font-size: 3rem !important;
-  color: #ccc;
   padding: 0 0 0 10rem;
   font-size: 3rem;
   position: relative;
   z-index: 2;
+  letter-spacing: 1.5px;
 }
 
 @media (max-width: 769px) {
   #header {
     justify-content: center;
-    background-image: url("../../assets/image/_bgMovil.jpeg") !important;
+    background: black !important;
   }
 
   #header::before {
@@ -43,5 +43,11 @@
     text-align: center;
     padding: 0;
     background-position: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 > span {
+    font-size: 2.rem !important;
   }
 }

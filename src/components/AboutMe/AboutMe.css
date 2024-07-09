@@ -23,14 +23,12 @@
 .iconsAboutMe {
   background-color: #cccccc3d;
   border-radius: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: .5rem;
+  width: fit-content;
+  padding: .8rem;
 }
 
 .iconAboutMe {
-  margin: 0 .5rem 0 0;
+  margin: .8rem
 }
 
 .myAvatar {
@@ -41,13 +39,14 @@
   .iconsAboutMe {
     flex-wrap: wrap;
     justify-content: start;
-
   }
 }
 
 @media(max-width: 992px) {
   #aboutMe {
+    height: auto;
     flex-direction: column;
+    margin-bottom: 2rem;
   }
 
   .myAvatar {
@@ -69,5 +68,11 @@
 
   .iconAboutMe {
     margin-right: 1rem;
+  }
+}
+
+@media(max-width: 736px) {
+  .iconsAboutMe {
+    display: flex;
   }
 }
