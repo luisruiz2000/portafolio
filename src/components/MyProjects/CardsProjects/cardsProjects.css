@@ -1,5 +1,5 @@
 .card {
-  width: 20rem;
+  width: 24rem;
 }
 
 .card-body {
@@ -23,5 +23,8 @@
 @media (max-width: 400px) {
   .containerCards {
     margin: 1rem !important;
+  }
+  .card {
+    width: 20rem;
   }
 }
