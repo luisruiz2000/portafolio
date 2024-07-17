@@ -13,7 +13,7 @@ const CardProjects = ({ title, description, icons, img, urlProjects, tiempo }) =
             return <img key={index} src={icon} width={30} />;
           })}
         </div>
-        <BtnComponent viwUrl={urlProjects} textBtn="Ver Proyecto" classBtn="" />
+        <BtnComponent viwUrl={urlProjects} textBtn="Ver Proyecto"/>
       </div>
     </div>
   );

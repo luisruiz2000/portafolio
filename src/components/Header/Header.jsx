@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import BtnComponent from "../BtnComponent/BtnComponent.jsx";
 
 const Header = () => {
   return (
@@ -9,10 +10,18 @@ const Header = () => {
           Soy <span className="colorTitle">Luis Fernando</span>,
         </span>
         <br />
-        <span className="m-0" colorTitle>Desarrollador Full Stack</span>
+        <span className="m-0" colorTitle>
+          Desarrollador Full Stack
+        </span>
         <br />
-        <span className="m-0"> <span className="colorTitle">+2 años</span> de experiencia</span>
+        <span className="m-0">
+          {" "}
+          <span className="colorTitle">+2 años</span> de experiencia
+        </span>
       </h2>
+      <div className="containerBtn color-white">
+        <BtnComponent viwUrl="/public/LuisFernandoCV.pdf" textBtn="Ver currículum" />
+      </div>
     </header>
   );
 };

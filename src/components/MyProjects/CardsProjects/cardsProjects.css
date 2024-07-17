@@ -1,5 +1,11 @@
 .card {
   width: 24rem;
+  border: solid 1px #ccc !important;
+  border-radius: 10px !important;
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0 !important;
 }
 
 .card-body {
