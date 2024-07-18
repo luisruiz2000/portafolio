@@ -20,7 +20,7 @@ const Header = () => {
         </span>
       </h2>
       <div className="containerBtn color-white">
-        <BtnComponent viwUrl="/public/LuisFernandoCV.pdf" textBtn="Ver currículum" />
+        <BtnComponent viwUrl="/LuisFernandoCV.pdf" textBtn="Ver currículum" />
       </div>
     </header>
   );
